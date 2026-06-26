@@ -1,7 +1,7 @@
 #streamlit_ui.py
 
 """
-Streamlit UI for Customer Chatbot Agent
+Streamlit UI for Soccer Expert Chatbot Agent
 
 Simple and intuitive interface for chatting with the chatbot.
 Can connect to local FastAPI or Cloud Run deployment.
@@ -9,18 +9,23 @@ Can connect to local FastAPI or Cloud Run deployment.
 
 import streamlit as st
 import requests
-import json
 from datetime import datetime
-from typing import Optional
+import time
 import os
 
+
+def response_generator(response_text: str):
+    
+    for word in response_text.split():
+        yield word + " "
+        time.sleep(0.05)
 # ============================================================================
 # Page Configuration
 # ============================================================================
 
 st.set_page_config(
     page_title="Soccer Expert Chatbot",
-    page_icon="🤖",
+    page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -84,10 +89,59 @@ if "session_id" not in st.session_state:
     st.session_state.session_id = f"streamlit_session_{datetime.now().timestamp()}"
 
 if "api_url" not in st.session_state:
-    st.session_state.api_url = "http://localhost:8000"
+    st.session_state.api_url = os.environ.get("API_URL", "http://localhost:8000")  # Default to localhost if not set
 
 if "connected" not in st.session_state:
-    st.session_state.connected = False
+    st.session_state.connected = True
+
+# ============================================================================
+# Helper Functions
+# ============================================================================
+
+def submit_message(message_text: str) -> None:
+    """Submit a message to the chatbot API and update chat history."""
+    if not st.session_state.connected:
+        st.error("❌ API not connected. Please configure connection in sidebar.")
+        return
+    
+    # Add user message to chat
+    st.session_state.messages.append({
+        "role": "user",
+        "content": message_text
+    })
+
+    # Get response from API
+    try:
+        with st.spinner("🔄 Agents thinking..."):
+            response = requests.post(
+                f"{st.session_state.api_url}/query",
+                json={
+                    "user_id": "streamlit_user",
+                    "session_id": st.session_state.session_id,
+                    "message": message_text
+                },
+                timeout=30
+            )
+
+            if response.status_code == 200:
+                data = response.json()
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": data["response"],
+                    "tool_used": data.get("tool_used")
+                })
+                st.rerun()
+            else:
+                error_data = response.json() if response.text else {}
+                error_msg = error_data.get("detail", f"Status {response.status_code}")
+                st.error(f"❌ Error: {error_msg}")
+
+    except requests.exceptions.Timeout:
+        st.error("❌ Request timeout. Please try again.")
+    except requests.exceptions.ConnectionError:
+        st.error("❌ Connection error. Please check the API URL.")
+    except Exception as e:
+        st.error(f"❌ Error: {str(e)}")
 
 # ============================================================================
 # Sidebar Configuration
@@ -175,101 +229,13 @@ with col2:
     else:
         st.warning("🔴 Not Connected")
 
-st.divider()
-
-# Chat Messages Display
-chat_container = st.container()
-
-with chat_container:
-    for i, message in enumerate(st.session_state.messages):
-        if message["role"] == "user":
-            st.markdown(
-                f"""
-                <div class="chat-message user-message">
-                    <strong>You:</strong> {message["content"]}
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-        else:
-            tool_badge = ""
-            if "tool_used" in message and message["tool_used"]:
-                tool_class = "rag-badge" if message["tool_used"] == "RAG" else "web-badge"
-                tool_badge = f'<span class="info-badge {tool_class}">{message["tool_used"]}</span>'
-
-            st.markdown(
-                f"""
-                <div class="chat-message assistant-message">
-                    <strong>⚽ Chatbot:</strong> {tool_badge}
-                    <br>{message["content"]}
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-# Input Area
-st.divider()
-col1, col2 = st.columns([4, 1])
-
-with col1:
-    user_input = st.text_input(
-        "Message:",
-        placeholder="Ask me anything about soccer...",
-        label_visibility="collapsed"
-    )
-
-with col2:
-    send_button = st.button("📤 Send", use_container_width=True)
-
-# Handle Message Sending
-if send_button and user_input:
-    if not st.session_state.connected:
-        st.error("❌ API not connected. Please configure connection in sidebar.")
-    else:
-        # Add user message to chat
-        st.session_state.messages.append({
-            "role": "user",
-            "content": user_input
-        })
-
-        # Get response from API
-        try:
-            with st.spinner("🔄 Getting response..."):
-                response = requests.post(
-                    f"{st.session_state.api_url}/query",
-                    json={
-                        "user_id": "streamlit_user",
-                        "session_id": st.session_state.session_id,
-                        "message": user_input
-                    },
-                    timeout=30
-                )
-
-            if response.status_code == 200:
-                data = response.json()
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": data["response"],
-                    "tool_used": data.get("tool_used")
-                })
-                st.rerun()
-            else:
-                error_data = response.json() if response.text else {}
-                error_msg = error_data.get("detail", f"Status {response.status_code}")
-                st.error(f"❌ Error: {error_msg}")
-
-        except requests.exceptions.Timeout:
-            st.error("❌ Request timeout. Please try again.")
-        except requests.exceptions.ConnectionError:
-            st.error("❌ Connection error. Please check the API URL.")
-        except Exception as e:
-            st.error(f"❌ Error: {str(e)}")
-
 # ============================================================================
 # Info Section
 # ============================================================================
 
-if len(st.session_state.messages) == 0:
+# if len(st.session_state.messages) == 0:
+expander = st.expander("ℹ️ About Soccer Expert Chatbot", expanded=False)
+with expander:
     st.info("""
     ### Welcome to Soccer Expert Chatbot! 👋
 
@@ -286,12 +252,68 @@ if len(st.session_state.messages) == 0:
     1. Configure your API connection in the sidebar
     2. Test the connection
     3. Start asking questions!
-
-    **Example Questions:**
-    - "Who won World Cup in 2022?"
-    - "Who was the top scorer in the 2018 World Cup?"
-    - "Explain the offside rule in soccer."
     """)
+
+st.divider()
+
+# Chat Messages Display
+chat_container = st.container()
+
+with chat_container:
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+# Input Area
+st.divider()
+
+# Create form for message input - allows Enter key to submit
+with st.form(key="message_form"):
+    col1, col2 = st.columns([4, 1])
+    
+    with col1:
+        user_input = st.text_input(
+            "Message:",
+            placeholder="Ask me anything about soccer...",
+            label_visibility="collapsed",
+            key="user_input_field"
+        )
+    
+    with col2:
+        send_button = st.form_submit_button("📤 Send", use_container_width=True)
+
+# Handle Message Sending
+if send_button and user_input:
+    submit_message(user_input)
+
+
+# ============================================================================
+# Sample Questions Section
+# ============================================================================
+sample_questions_container = st.container()
+
+with sample_questions_container:
+    col1, col2, col3 = st.columns(3)
+
+    sample_questions = [
+        "Who won World Cup in 2022?",
+        "Explain throw-in rule in soccer.",
+        "Tell me about world cup 2026."
+    ]
+
+    with col1:
+        if st.button(sample_questions[0], use_container_width=True, key="q1"):
+            submit_message(sample_questions[0])
+
+    with col2:
+        if st.button(sample_questions[1], use_container_width=True, key="q2"):
+            submit_message(sample_questions[1])
+
+    with col3:
+        if st.button(sample_questions[2], use_container_width=True, key="q3"):
+            submit_message(sample_questions[2])
+
 
 # ============================================================================
 # Footer
@@ -301,10 +323,10 @@ st.divider()
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.caption("📖 [Documentation](https://github.com/your-repo)")
+    st.caption("📖 [Documentation](https://github.com/san/soccer-expert-multiagent-chatbot)")
 
 with col2:
-    st.caption("🐛 [Report Issues](https://github.com/your-repo/issues)")
+    st.caption("🐛 [Report Issues](https://github.com/san/soccer-expert-multiagent-chatbot/issues)")
 
 with col3:
     st.caption("💬 Chat Sessions: " + str(len(st.session_state.messages) // 2))

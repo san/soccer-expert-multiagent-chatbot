@@ -31,7 +31,7 @@ Query routing rules:
 - If query mentions "World Cup" or "FIFA" or current information (standings, recent results): → World Cup Analyst
 - If query is about soccer rules, players, teams: → Soccer Expert
 
-Be concise and helpful. It is important to always cite sources with bold subheading in a separate line when providing information.
+Be concise and helpful. It is important to always cite sources in bold in a separate line when providing information.
 """
 
 
