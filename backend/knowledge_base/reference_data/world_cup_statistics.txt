@@ -1,0 +1,347 @@
+Title: World Cup Statistics and Records
+Source: FIFA Official Statistics
+Last Updated: 2026-06-22
+Type: Statistical Reference
+Coverage: All-time World Cup records 1930-2022
+---
+
+## World Cup Statistics Overview
+
+Comprehensive statistics and records from all FIFA World Cup tournaments.
+
+## Team Statistics
+
+### Most World Cup Wins (All Tournaments)
+1. Brazil - 5 titles (1958, 1962, 1970, 1994, 2002)
+2. Germany - 4 titles (1954, 1974, 1990, 2014)
+3. Italy - 4 titles (1934, 1938, 1966, 1982)
+4. France - 2 titles (1998, 2018)
+5. Uruguay - 2 titles (1930, 1950)
+6. Argentina - 2 titles (1978, 1986, 2022)
+7. England - 1 title (1966)
+8. Spain - 1 title (2010)
+
+### Most Appearances in Final
+- Germany: 8 finals (4 wins, 4 runner-up)
+- Italy: 6 finals (4 wins, 2 runner-up)
+- France: 3 finals (2 wins, 1 runner-up)
+- Brazil: 7 finals (5 wins, 2 runner-up)
+- Argentina: 5 finals (3 wins, 2 runner-up)
+
+### Most Tournaments Participated
+- Germany: 19 tournaments
+- Brazil: 21 tournaments  
+- Italy: 18 tournaments
+- France: 16 tournaments
+- Spain: 16 tournaments
+- Mexico: 17 tournaments
+- South Korea: 11 tournaments
+- Argentina: 18 tournaments
+
+### Best Finish by Nation (First World Cup Only)
+- Uruguay: Champion (1930)
+- France: 4th place (1938)
+- USA: 3rd place (1930)
+- Sweden: 2nd place (1958)
+
+### Longest Drought (Years Without World Cup Appearance)
+- Netherlands: Appeared in 8 finals total but not every tournament
+- Various nations: 8+ year gaps between appearances
+
+## Player Statistics
+
+### All-Time Goal Scorers (World Cup)
+1. Miroslav Klose (Germany) - 16 goals
+2. Just Fontaine (France) - 13 goals
+3. Pelé (Brazil) - 12 goals
+4. Gerd Müller (Germany) - 10 goals
+5. Cristiano Ronaldo (Portugal) - 7 goals
+6. Lionel Messi (Argentina) - 7 goals
+7. Ronaldo (Brazil, "The Phenomenon") - 8 goals
+8. Zinedine Zidane (France) - 6 goals
+9. Jürgen Klinsmann (Germany) - 5 goals
+10. Kylian Mbappé (France) - 8 goals (as of 2022)
+
+### Goal Scoring Records
+
+**Most Goals in Single Tournament**
+- Just Fontaine (France, 1958): 13 goals in 6 matches
+- Gerd Müller (West Germany, 1970): 10 goals
+- Pelé (Brazil, 1970): 9 goals
+- Ronaldo (Brazil, 2002): 8 goals
+- Grzegorz Lato (Poland, 1974): 7 goals
+- Kylian Mbappé (France, 2022): 8 goals
+
+**Most Goals in a Single Match**
+- Oleg Salenko (Russia vs Cameroon, 1994): 5 goals
+- Pelé (Brazil vs France, 1958): 3 goals (hat-trick)
+- Multiple players: 3 goals (hat-tricks in single match)
+
+**Most Goals by Goalkeeper**
+- None (goalkeepers don't score)
+
+### Appearances and Longevity
+
+**Most World Cup Appearances (Matches)**
+- Lothar Matthäus (Germany): 25 matches
+- Diego Maradona (Argentina): 21 matches
+- Pelé (Brazil): 14 matches
+- Bobby Charlton (England): 12 matches
+
+**Most World Cups Played (Tournaments)**
+- Lothar Matthäus: 5 tournaments (1982-1998)
+- Pelé: 3 tournaments (1958-1970)
+- Diego Maradona: 4 tournaments (1982-1994)
+- Cristiano Ronaldo: 5 tournaments (2006-2022)
+- Lionel Messi: 5 tournaments (2006-2022)
+
+**Youngest Player to Score**
+- Pelé: 17 years old (1958)
+- Kylian Mbappé: 19 years old (2018)
+- Cristiano Ronaldo: 25 years old (2006)
+
+**Oldest Player to Score**
+- Roger Milla (Cameroon): 42 years old (1994)
+- Faryd Mondragón (Colombia): 43 years old (2014)
+
+### Awards and Honors
+
+**Golden Ball (Best Player Award)**
+- Awarded since 1982
+- Given to tournament's outstanding player
+- Pelé, Maradona, Zidane, Messi among recipients
+
+**Golden Boot (Top Scorer Award)**
+- Awarded since 1930
+- Given to tournament's top goal scorer
+- Fontaine (13 goals, 1958) record for single tournament
+
+**Golden Glove (Best Goalkeeper Award)**
+- Awarded since 2010
+- Given to tournament's best goalkeeper
+
+## Match Statistics
+
+### Highest Scoring Matches
+- Austria 7-5 Switzerland (1954 quarterfinal): 12 total goals
+- Hungary 10-1 El Salvador (1982): 11 total goals
+- Sweden 5-2 Mexico (1950): 7 total goals
+- France 6-1 Paraguay (1998): 7 total goals
+
+### Lowest Scoring Matches
+- Many matches tied 0-0
+- Netherlands 0-0 Peru (1978)
+- Brazil 0-0 England (1970)
+
+### Tournament with Most Goals
+- 1954 Switzerland: Average 5.5 goals per match
+- 1938: Average 4+ goals per match
+- Early tournaments: Higher scoring due to defensive tactics
+
+### Tournament with Fewest Goals
+- 1990 Italy: Lowest scoring in modern era
+- Defensive, cautious play dominated
+
+### Average Goals per Match (by Tournament)
+- 1930: ~2.8 goals per match
+- 1954: ~5.5 goals per match
+- 1990: ~2.2 goals per match
+- 1998: ~2.7 goals per match
+- 2002: ~2.7 goals per match
+- 2022: ~2.8 goals per match
+
+## Penalty Statistics
+
+### Penalty Shootouts in World Cup
+
+**Most Penalty Shootouts Won**
+- Germany: 4 shootout victories
+- France: 2 shootout victories
+- Netherlands: 1 shootout victory
+
+**Most Penalty Shootouts Lost**
+- England: 3 losses (1990, 1998, 2020 Euro)
+- Argentina: 1 loss (currently none as of 2022)
+
+**Longest Penalty Shootout**
+- West Germany vs France (1982 semifinal): 5-4 (both teams took 5 penalties)
+
+**Perfect Penalty Records**
+- Brazil: Excellent penalty shootout record
+- Argentina: Strong penalty shootout history
+
+## Records and Firsts
+
+### Tournament Records
+
+**Largest Victory Margins**
+- West Germany 12-0 Saudi Arabia (1974)
+- Hungary 10-1 El Salvador (1982)
+- Brazil 14-0 Mexico (1928, before official World Cups)
+
+**Most Goals in Single Tournament** (Team)
+- France (1998): 15 goals
+- Brazil (1950): 14 goals
+- Hungary (1954): 25 goals
+
+**Longest Unbeaten Run**
+- France: 12-match unbeaten streak (1998-2006)
+- Brazil: Long stretches without losses
+
+**First Goals**
+- First World Cup goal: Lucien Laurent (France) vs Mexico (1930)
+- First goal in own goal: Ernesto Blanchard (Mexico, 1930)
+
+### Debuts and Milestones
+
+**First Asian Team to Reach Knockout Stage**
+- South Korea (2002, co-hosts)
+
+**First African Team to Reach Knockout Stage**
+- Cameroon (1990)
+
+**First African Team to Reach Semifinal**
+- Senegal (2002)
+- Morocco (2022)
+
+**Best Tournament Debut**
+- South Korea (2002, third place)
+- Morocco (2022, fourth place)
+
+### Controversial Moments
+
+**Most Controversial Decisions**
+- 1966 England goal (crossed line?)
+- 1986 Maradona "Hand of God" goal
+- 2010 Thierry Henry handball (France vs Ireland, qualifier)
+- 2014 Brazil 7-1 Germany criticism
+
+**Most Red Cards in Match**
+- Portugal vs Netherlands (2006): 4 red cards
+- Match abandoned due to mayhem
+
+**Most Yellow Cards**
+- Various matches have seen 10+ combined yellows
+
+## Tournament Expansions
+
+### Format Changes
+
+**1930-1978: 16 Teams**
+- Small format
+- Fewer matches
+
+**1982-1994: 24 Teams**
+- Introduction of third-place playoff
+- 24-team format lasted 3 tournaments
+
+**1998-2022: 32 Teams**
+- 8 groups of 4
+- 64 matches
+- Format now widely accepted
+
+**2026: Possible 48 Teams**
+- Expansion planned
+- Exact format TBD
+- More matches expected
+
+## Attendance Records
+
+### Total World Cup Attendance
+- 2002 South Korea/Japan: 2.7 million total
+- 2014 Brazil: 3.4 million total
+- 2022 Qatar: Approximately 3 million
+
+### Largest Single Match Attendance
+- Brazil vs Uruguay (1950, Maracanã): 199,854
+- Brazil vs Germany (2014, Maracanã): 74,240 (modern era)
+
+### Average Attendance by Tournament
+- Early tournaments: Lower (small stadiums)
+- Modern tournaments: 40,000-70,000 average
+- Qatar 2022: 36,000-44,000 average (smaller stadiums)
+
+## Television and Viewership
+
+### Most-Watched World Cup Finals
+- 2022 Argentina vs France: 1.5 billion viewers
+- 2018 France vs Croatia: 1.1 billion viewers
+- 2014 Germany vs Argentina: 1 billion viewers
+
+### Most-Watched Matches (Individual)
+- World Cup Final (always most-watched)
+- Brazil knockout matches (typically high viewership)
+- Argentina vs England (rivalry draws viewers)
+
+### Global Viewership Trends
+- Increasing viewership each tournament
+- Digital streaming expanding audience
+- Peak viewership in final matches
+
+## Miscellaneous Records
+
+**Most Countries Participated in Qualification**
+- 209+ FIFA members participate in qualification
+- Only 32 reach final tournament
+
+**Widest Geographic Spread**
+- Current: Australia to Canada
+- Future: Expanded with more nations
+
+**Most Different Goal Scorers in Tournament**
+- Italy: Multiple goalscorers (1998, 2006)
+- Germany: Deep squad with multiple scorers
+
+**Tournament Held in Different Continents**
+- South America: 1930, 1962, 1978, 1986, 1995 Copa America
+- Europe: 1934, 1938, 1954, 1966, 1974, 1990, 2006
+- North America: 1994
+- Asia: 2002
+- Africa: 2010
+- Middle East: 2022
+
+**Distance Records**
+- First overseas tournament: 1930 (Uruguay)
+- First non-European: 1950 (Brazil)
+- Furthest participants travel: 2022 Qatar (teams from Pacific)
+
+## Summary Statistics
+
+### Career Summary by Elite Players
+
+**Pelé (Brazil)**
+- Tournaments: 3 (1958, 1962, 1970)
+- Matches: 14
+- Goals: 12
+- World Cups won: 3
+- Status: First three-time winner
+
+**Diego Maradona (Argentina)**
+- Tournaments: 4 (1982, 1986, 1990, 1994)
+- Matches: 21
+- Goals: 8
+- World Cups won: 1 (1986)
+- Status: Dominant individual performance (1986)
+
+**Cristiano Ronaldo (Portugal)**
+- Tournaments: 5 (2006, 2010, 2014, 2018, 2022)
+- Matches: 17+
+- Goals: 7
+- World Cups won: 0
+- Status: Multiple appearances without victory
+
+**Lionel Messi (Argentina)**
+- Tournaments: 5 (2006, 2010, 2014, 2018, 2022)
+- Matches: 25
+- Goals: 7 (before 2022)
+- World Cups won: 1 (2022)
+- Status: First title after 4 previous attempts
+
+### Modern Era Trends (2010-2022)
+
+- Shorter tournaments (28-30 days)
+- VAR implementation (2018+)
+- Increased goal-line technology
+- Better athlete conditioning
+- Lower average goals per match (~2.7)
+- Defensive tactics more refined

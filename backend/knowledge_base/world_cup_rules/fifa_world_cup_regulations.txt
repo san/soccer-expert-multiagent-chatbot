@@ -1,0 +1,201 @@
+Title: FIFA World Cup Tournament Regulations
+Source: FIFA Official Regulations
+Last Updated: 2026-06-22
+Type: Tournament Rules
+Applies To: All FIFA World Cup Tournaments
+---
+
+## FIFA World Cup Tournament Format
+
+### Tournament Overview
+
+The FIFA World Cup is the primary international football competition. It is contested by the senior men's national teams of the members of Fédération Internationale de Football Association (FIFA), and takes place every four years.
+
+The tournament consists of:
+- Qualification phase (4 years before tournament)
+- Final tournament (held over approximately one month)
+
+### Current Tournament Format (2022+)
+
+#### Participating Teams
+- 32 teams qualify for the final tournament
+- Each team represents a FIFA member nation
+- Teams compete in groups and knockout stages
+
+#### Group Stage
+- 8 groups of 4 teams each
+- 48 total matches in group stage
+- Each team plays 3 matches (one against each other team in their group)
+- 3 points for a win, 1 point for a draw, 0 for a loss
+
+#### Knockout Stage
+- Top 2 teams from each group qualify
+- 16 teams participate in knockout rounds
+- Format: Round of 16 (8 matches) → Quarterfinals (4 matches) → Semifinals (2 matches) → Final (1 match)
+- Total of 15 knockout matches
+- Extra time: 2 × 15 minutes if match is drawn
+- Penalty shootout if still tied after extra time
+
+### Total Tournament Statistics
+- 64 total matches
+- 8 venues (typically across 1-2 countries)
+- Tournament duration: approximately 28-29 days
+
+## Eligibility Requirements
+
+### National Team Eligibility
+- Must be a member of FIFA
+- Players must be eligible according to FIFA statutes
+- Each country sends one senior national team
+
+### Player Eligibility Criteria
+- Must be a citizen of the country they represent
+- Must be registered with their national federation
+- Cannot have played for another country in an official match
+- Eligibility is determined by the Fédération Internationale de Football Association (FIFA)
+
+### Squad Requirements
+- Standard squad size: 23 players (18 outfield, 5 substitutes)
+- Minimum squad: 20 players
+- Maximum squad: 25 players (varies by tournament)
+- Including: minimum 3 goalkeepers
+
+## Competition Rules
+
+### Match Conduct
+- Match duration: 90 minutes (2 × 45 minutes)
+- Half-time break: 15 minutes
+- Each team allowed: 5 substitutions during match
+- Substitution time stoppages count toward stoppage time
+
+### Referee and Officials
+- One referee (main official)
+- Two assistant referees (one on each touchline)
+- Fourth official (tracks substitutions, time)
+- Video Assistant Referee (VAR) at all matches (since 2018)
+
+### Stoppage Time
+- Referee adds extra time for stoppages
+- Typically 1-5 minutes per half
+- VAR checks can extend stoppage time
+
+### Extra Time (Knockout Stage)
+- If group stage or early rounds tied: match ends in draw
+- Knockout stage: 2 × 15 minutes extra time if tied after 90 minutes
+- After extra time still tied: Penalty shootout (5 penalties each, then sudden death)
+
+## Qualification for Tournament
+
+### Regional Qualification
+- 209 FIFA member nations participate in qualification
+- Qualification matches held over 2-3 year period before final tournament
+- Regional confederations:
+  - UEFA (Europe): 13 slots
+  - CONMEBOL (South America): 4-6 slots
+  - CAF (Africa): 5 slots
+  - AFC (Asia): 4-5 slots
+  - OFC (Oceania): 0-1 slots
+  - CONCACAF (North/Central America): 3-4 slots
+
+### Host Country
+- Host nation automatically qualifies for final tournament
+- Chosen 6-7 years before tournament by FIFA Congress
+
+## Scoring System
+
+### Group Stage Standings
+- Win: 3 points
+- Draw: 1 point
+- Loss: 0 points
+
+### Tiebreakers (in order)
+1. Greater goal difference in group matches
+2. Greater number of goals scored in group matches
+3. Greater number of wins in group matches
+4. Head-to-head record
+5. Head-to-head goal difference
+6. Head-to-head goals scored
+7. Goals scored in matches (overall)
+8. Draw/coin flip (rarely used)
+
+## Tournament Regulations - Conduct
+
+### Disciplinary Rules
+
+#### Yellow Card
+- Shown for misconduct
+- Player receives warning but continues playing
+- Two yellow cards in same match = red card
+- Accumulation: 2 yellow cards across tournament = suspension for next match
+
+#### Red Card
+- Shown for severe misconduct
+- Player ejected from match immediately
+- Automatic suspension for next match
+- Minimum one match suspension
+
+### Misconduct Examples
+- Excessive celebration
+- Dissent by word or action
+- Abusive language
+- Violent conduct
+- Spitting
+- Deliberate handball
+- Denying obvious goal-scoring opportunity
+
+## World Cup Trophy
+
+### The Trophy
+- Official name: FIFA World Cup Trophy
+- Designed by Italian artist Silvio Gazazniga
+- Height: 36.8 cm
+- Weight: 6.1 kg (13.5 lbs)
+- Material: 18 karat gold plating, malachite base
+- Depicts two human figures holding up the Earth
+
+### Winning Tradition
+- Winning team keeps gold-plated copy
+- Original stays in FIFA vault
+- Names of winning nations engraved on base
+- Winning captain lifts trophy on podium
+
+## Tournament Variations by Year
+
+### Previous Formats (Pre-2022)
+- 1930-1978: 16 teams
+- 1982-1994: 24 teams
+- 1998-2018: 32 teams
+
+### 2022+ Format
+- 32 teams (same as 1998-2018)
+- 8 groups of 4 teams
+- 48 group stage matches
+- No 24-team format currently planned
+
+### Future Plans
+- 2026 World Cup: Possible expansion to 48 teams (format TBD)
+- Discussed formats: 12-16 groups, or 4-team groups with top 2 advancing
+
+## Major Tournament Regulations Summary
+
+### Tournament Schedule
+- Held every 4 years (with rare exceptions)
+- Typically held during summer months
+- Duration: 28-29 days
+- All group stage matches of same day held simultaneously to prevent collusion
+
+### Venue Requirements
+- Minimum 8 stadiums
+- Stadium capacity: minimum 40,000
+- Modern facilities for players, media, spectators
+- Training facilities for 32 teams
+
+### Broadcasting Rights
+- FIFA controls all broadcasting rights
+- Coverage provided to worldwide audience
+- Matches generally available in all countries
+
+### Attendance
+- Typical total attendance: 3-4 million spectators
+- Average stadium attendance: 50,000-70,000
+- Some matches exceed 80,000 in large stadiums

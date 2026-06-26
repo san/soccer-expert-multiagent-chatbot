@@ -1,0 +1,436 @@
+Title: Soccer Player Positions and Roles
+Source: FIFA and Modern Soccer Analysis
+Last Updated: 2026-06-22
+Type: Educational Reference
+---
+
+## Soccer Player Positions Overview
+
+In soccer, positions are typically organized into four main categories: Goalkeeper, Defenders, Midfielders, and Forwards. However, modern soccer uses flexible tactical formations.
+
+## Position Categories
+
+### Goalkeeper (GK)
+
+**Primary Responsibility**
+- Prevent opponents from scoring
+- Only player allowed to handle ball with hands in penalty area
+- Primary shot-stopper
+
+**Key Characteristics**
+- Tallest player (typically 6'0"+)
+- Excellent reflexes
+- Strong hands and positioning
+- Leadership qualities
+- Distribution skills
+
+**Duties**
+- Making saves
+- Distributing ball to outfield players
+- Organizing defense
+- Clearing loose balls
+- Coming off line to prevent through-balls
+
+**Modern Goalkeepers**
+- Must be good with feet (pass to teammates)
+- Act as "sweeper keeper" (coverage behind defense)
+- Throw-ins and ball distribution important
+- Communication with defenders
+
+### Defenders
+
+#### Center Back (CB) / Central Defender
+
+**Positions**
+- Two center backs typical in 4-man defense
+- Center of defense line
+- Line between goalkeeper and midfielders
+
+**Responsibilities**
+- Prevent strikers from scoring
+- Head clearances
+- Block shots
+- Mark opposing forwards
+- Start offensive play from defense
+
+**Key Skills**
+- Heading ability (aerial dominance)
+- Positioning and reading play
+- Tackling technique
+- Physical strength
+- Passing accuracy
+
+**Types**
+- Defender: Primarily defensive (pure defender)
+- Ball-playing defender: Comfortable on ball, distribution
+- Aggressive defender: High pressing, tackles frequently
+- Sweeper: Covers behind main defense line
+
+**Famous Center Backs**
+- Franz Beckenbauer (Germany) - "Libero" sweeper role
+- Maldini (Italy) - Great positioning
+- Puyol (Spain) - Headed clearances
+- Ramos (Spain) - Attacking runs
+
+#### Full Back (LB/RB) - Left Back / Right Back
+
+**Positions**
+- Left back: Left side of defense
+- Right back: Right side of defense
+- Between goalkeeper and midfield
+
+**Responsibilities**
+- Defend wide areas
+- Prevent opposing wingers/outside midfielders
+- Track runs down flank
+- Provide width in attack
+- Deliver crosses
+
+**Key Skills**
+- Speed and agility
+- Crossing ability
+- Tackling and marking
+- Stamina (cover ground)
+- One-v-one defending
+
+**Types**
+- Defensive: Focuses on defense, limited attacking
+- Attacking: High up field, provide offensive support
+- Balanced: Mix of defensive and attacking duties
+
+**Famous Full Backs**
+- Carlos (Brazil, Left Back) - Great attacking full back
+- Cafu (Brazil, Right Back) - Perfect crossing
+- Lahm (Germany, Right Back) - Versatile defender
+- Ashley Cole (England, Left Back) - Defensive prowess
+
+#### Wing Back (LWB/RWB)
+
+**Positions**
+- Left wing back or Right wing back
+- Modern formation (3-5-2, 5-3-2)
+- Between back line and midfield width
+
+**Responsibilities**
+- Cover wide areas defensively
+- Provide attacking width
+- Transition between defense and attack
+- Both defensive and offensive duties
+- Work with wingers/wide midfielders
+
+**Key Skills**
+- High stamina (cover lots of ground)
+- Speed
+- Crossing ability
+- Defensive positioning
+- Stamina crucial
+
+### Midfielders
+
+#### Central Midfielder (CM)
+
+**Positions**
+- Center of field between defenders and forwards
+- Two or three in midfield line
+
+**Responsibilities**
+- Link defense and attack
+- Ball distribution
+- Set tempo of play
+- Box-to-box running
+- Tackle and win possession
+- Pass forward to strikers
+
+**Key Skills**
+- Ball control and passing
+- Vision for through-balls
+- Stamina and work rate
+- Positioning
+- Defensive awareness
+
+**Types**
+- Box-to-box: Covers full field (defense to attack)
+- Defensive midfielder: Primarily defensive duties
+- Creative midfielder: More attacking focus
+- Playmaker: Sets up scoring chances
+
+**Famous Central Midfielders**
+- Iniesta (Spain) - Ball control and vision
+- Xavi (Spain) - Passing and distribution
+- Vieira (France) - Box-to-box dominance
+- Gerrard (England) - All-around midfielder
+
+#### Defensive Midfielder (CDM) / Holding Midfielder
+
+**Positions**
+- Just ahead of defense
+- Protects back four
+- Also called "holding" midfielder
+
+**Responsibilities**
+- Protect defense by positioning
+- Break up opposition attacks
+- Simple passing (safe possession)
+- Shield defenders
+- Win back possession
+
+**Key Skills**
+- Positioning and reading play
+- Tackling and marking
+- Work rate and stamina
+- Simple, accurate passing
+- Physical strength
+
+**Styles**
+- Aggressive: High-pressing, tackles frequently
+- Positional: Positioning-based defense
+- Physical: Strength and presence
+- Technical: Good on ball despite defensive role
+
+**Famous Defensive Midfielders**
+- Makelélé (France) - Shielding defense
+- Busquets (Spain) - Positional mastery
+- Vieira (France) - Powerful midfielder
+- Kante (France) - Energy and work rate
+
+#### Attacking Midfielder (CAM) / Playmaker
+
+**Positions**
+- Just behind strikers
+- Between midfielders and forwards
+- Creating chances for strikers
+
+**Responsibilities**
+- Create scoring chances
+- Pass to strikers
+- Set tempo of attack
+- Through-ball passes
+- Contribute to defense when needed
+
+**Key Skills**
+- Vision and creativity
+- Passing range
+- Ball control
+- Composure
+- Off-ball movement awareness
+
+**Types**
+- Traditional playmaker: Orchestrates offense from deeper
+- Attacking midfielder: Further forward, closer to strikers
+- Shadow striker: Almost a forward but in midfield role
+
+**Famous Attacking Midfielders**
+- Zidane (France) - Complete playmaker
+- Ronaldinho (Brazil) - Creative genius
+- Messi (Argentina) - Playmaking ability despite being striker
+- De Bruyne (Belgium) - Modern playmaker
+
+#### Winger / Outside Midfielder (LM/RM)
+
+**Positions**
+- Left midfield or right midfield (flank)
+- Just ahead of full back
+
+**Responsibilities**
+- Attack down the wing
+- Cross for strikers
+- Beat defenders one-v-one
+- Support full back defensively
+- Cut inside and shoot
+
+**Key Skills**
+- Pace and acceleration
+- Dribbling ability
+- Crossing technique
+- One-v-one ability
+- Finishing (if cutting inside)
+
+**Types**
+- Traditional winger: Stays wide, crosses
+- Inside forward: Cuts inside, shoots
+- Inverted winger: Plays on opposite flank (cuts inside)
+
+**Famous Wingers**
+- Best (Manchester United) - Pace and skill
+- Beckham (England) - Crossing precision
+- Ronaldo (Brazil, "The Phenomenon") - Pace and dribbling
+- Hazard (Belgium) - Dribbling ability
+- Salah (Egypt) - Modern inverted winger
+
+### Forwards / Strikers
+
+#### Center Forward (CF) / Striker (ST)
+
+**Positions**
+- Front of attack
+- Primarily offensive role
+- Closest to opposing goal
+
+**Responsibilities**
+- Score goals (primary duty)
+- Hold up play
+- Bring others into play
+- Press opposing defense
+- Last line of pressure
+
+**Key Skills**
+- Finishing (shooting accuracy)
+- Movement in box
+- Header ability
+- Strength (holding ball)
+- Work rate and pressing
+- Composure in front of goal
+
+**Types**
+- Target man: Physical, hold-up play
+- Poacher: In the box, finishing opportunities
+- Complete striker: Scoring, assisting, working hard
+- False 9: Drops deep, playmaking role
+
+**Famous Center Forwards**
+- Pelé (Brazil) - Complete striker
+- Ronaldo (Brazil) - Speed and finishing
+- Ronaldinho (Brazil) - Skill and flair
+- Messi (Argentina) - Dribbling and shooting
+- Ronaldo (Portugal) - Heading and athleticism
+- Kane (England) - Physical, hold-up play
+- Haaland (Norway/Manchester) - Goal poaching
+
+#### Second Striker / Supporting Forward
+
+**Positions**
+- Behind main striker
+- Between attack and midfield
+- Also called "Attacking Midfielder" in some systems
+
+**Responsibilities**
+- Create chances for main striker
+- Score goals (secondary)
+- Press opposition defense
+- Link midfield to attack
+- Support striker movement
+
+**Key Skills**
+- Creativity and vision
+- Finishing ability (but secondary)
+- Movement and positioning
+- Link-up play
+- Work rate
+
+**Famous Second Strikers**
+- Bergkamp (Netherlands) - Technical ability
+- Fabregas (Spain) - Creativity and link-up
+- Muller (Germany) - Positioning and instinct
+
+#### Winger-Forward / Wing Forward
+
+**Positions**
+- Forward area but wide (flank)
+- Between wing and striker role
+- Modern tactical use
+
+**Responsibilities**
+- Attack down wing
+- Cross or cut inside
+- Score or assist
+- Pressure opposing defense
+- Work hard defensively
+
+**Key Skills**
+- Pace and dribbling
+- Finishing (both feet)
+- Crossing
+- One-v-one ability
+- Physical fitness
+
+**Famous Wing Forwards**
+- Neymar (Brazil) - Dribbling and creativity
+- Benzema (France) - Technical and finishing
+- Mbappé (France) - Pace and finishing
+
+## Tactical Formations
+
+### Common Formations
+
+**4-4-2** (Classic formation)
+- 4 defenders, 4 midfielders, 2 forwards
+- GK + 4 defenders + 4 midfielders + 2 strikers
+
+**4-3-3** (Modern formation)
+- 4 defenders, 3 midfielders, 3 forwards
+- Provides balance
+
+**3-5-2** (Wing backs used)
+- 3 center backs, 5 midfielders (wing backs), 2 forwards
+- Defensive solidity with attacking width
+
+**5-3-2** (Defensive formation)
+- 5 defenders, 3 midfielders, 2 forwards
+- Extra defensive coverage
+
+**4-2-3-1** (Modern tactical)
+- 4 defenders, 2 defensive midfielders, 3 attacking midfielders, 1 forward
+- Balance and protection
+
+**2-3-5** or **2-4-4** (Attacking formation)
+- Few defenders, many attacking players
+- Rare, used when chasing goals
+
+## Modern Position Evolution
+
+### Changes Over Time
+- Earlier football: More rigid positions
+- Modern football: Fluid, flexible roles
+- Player versatility increasingly valued
+- Full backs now attack heavily
+- Midfielders cover more ground
+- Strikers now press defense
+
+### Role Flexibility
+- Players shift positions mid-match
+- Defenders join attacks
+- Attackers defend
+- Midfielders cover for defenders
+- Positional awareness crucial
+
+### Specialist vs Versatile
+- Specialist: Expert in one position
+- Versatile: Can play multiple positions
+- Modern teams value versatility
+- Squad depth requires multi-positional players
+
+## Player Qualities by Position
+
+### Ideal Physical Attributes
+
+**Goalkeeper**
+- Height: 6'0"+
+- Build: Athletic
+- Agility: High
+- Strength: Good upper body
+
+**Defender**
+- Height: 5'10"+
+- Build: Athletic, muscular
+- Speed: Good acceleration
+- Strength: Important
+
+**Midfielder**
+- Height: 5'8"-5'11"
+- Build: Athletic, lean
+- Stamina: High endurance
+- Speed: Good overall
+
+**Forward**
+- Height: Variable
+- Build: Athletic, muscular
+- Speed: High acceleration
+- Agility: Quick changes direction
+
+### Cognitive Skills (All Positions)
+- Positioning awareness
+- Reading the game
+- Decision-making
+- Timing
+- Communication
+- Game intelligence

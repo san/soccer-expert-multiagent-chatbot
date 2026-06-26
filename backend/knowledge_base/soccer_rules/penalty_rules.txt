@@ -1,0 +1,469 @@
+Title: Penalty Kicks and Penalty Shootouts in Soccer
+Source: FIFA Laws of the Game
+Last Updated: 2026-06-22
+Type: Rules and Procedures
+---
+
+## Penalty Kick Overview
+
+A penalty kick is a direct free kick awarded to a team when the opposing team commits a direct free kick offense inside their penalty area.
+
+## Penalty Kick Offense - When Penalty is Awarded
+
+### Direct Free Kick Offenses in Penalty Area
+
+A penalty kick is awarded for the following offenses committed inside the penalty area:
+
+1. **Punching or Striking**
+   - Punching the ball with fist (except goalkeeper in their area)
+   - Striking opponent intentionally
+
+2. **Kicking**
+   - Kicking opponent
+   - Attempting to kick opponent
+
+3. **Jumping**
+   - Jumping at opponent
+
+4. **Charging**
+   - Charging opponent violently or dangerously
+   - Charging from behind without contact
+
+5. **Pushing**
+   - Pushing opponent with hand or body
+
+6. **Tackling**
+   - Tackling opponent dangerously
+   - Excessive force in tackling
+
+7. **Spitting**
+   - Spitting at opponent
+   - Spitting in general (severe offense)
+
+8. **Handball**
+   - **Deliberate handball** (most common penalty)
+   - Ball played by hand (except goalkeeper)
+   - Deliberate movement of hand to block
+   - Hand away from body
+   - NOT accidental (modern interpretation more strict on intent)
+
+9. **Denying Goal-Scoring Opportunity**
+   - Deliberately preventing obvious goal-scoring chance by handball
+   - (Red card offense)
+
+### Deliberate vs. Accidental Handball
+
+**Accidental Handball** (May NOT be penalty):
+- Hand/arm in natural position
+- Arm close to body
+- Arm not extended
+- Ball deflected off body then hand
+- Close distance to opponent (ball unexpected)
+
+**Deliberate Handball** (IS penalty):
+- Hand/arm away from body
+- Arm extended to block
+- Obvious unnatural movement
+- Player jumps to make arm bigger
+- Clear intent to handle
+
+### VAR Review of Penalties
+
+Modern penalty decisions involve VAR (Video Assistant Referee):
+- VAR reviews and recommends on controversial penalties
+- Referees can go to monitor to review
+- Clear handball decisions clearer with VAR
+- Subjective decisions sometimes reviewed
+
+## Penalty Kick Procedures
+
+### Setup and Positioning
+
+**Before the Kick:**
+
+1. **Ball Placement**
+   - Ball placed on penalty spot (12 yards from goal line)
+   - Spot marked with white dot on field
+   - Ball must be stationary
+
+2. **Goalkeeper Position**
+   - Goalkeeper stands on goal line between goal posts
+   - Goalkeeper must remain on line until kick taken
+   - Feet cannot move forward before kick
+   - Cannot move side to side excessively
+
+3. **Kicker Position**
+   - Taker stands behind ball or to side
+   - Approaches from 1-2 steps away typically
+   - Can be any player on the team
+
+4. **Other Players Position**
+   - All other players must be:
+     - Outside penalty area
+     - Outside penalty arc (10-yard arc outside box)
+     - At least 10 yards from ball
+     - Behind ball generally
+   - Cannot encroach into penalty area or arc
+
+5. **Referee Position**
+   - Referee stands to side of penalty area
+   - Observes kicker and goalkeeper
+   - Watches for rule violations
+   - Signals when ready
+
+### The Kick
+
+**Execution:**
+
+1. **Ready Signal**
+   - Referee ensures all players positioned correctly
+   - Goalkeeper ready on line
+   - Referee whistles or signals
+
+2. **Taking the Kick**
+   - Kicker runs toward ball
+   - Strikes ball with foot (usually)
+   - Ball must move (even slight touch counts)
+   - Kicker continues through motion
+
+3. **Ball Delivery**
+   - Ball directed toward goal
+   - Usually shot toward corner or high
+   - Can be soft pass or powerful strike
+   - Goalkeeper attempts to save
+
+4. **After Kick**
+   - If goal: Counts 1-0
+   - If saved: Play continues (usually)
+   - If missed: Another player gets rebound opportunity
+   - If goalkeeper saves, can be retaken in some situations
+
+## Outcomes of a Penalty Kick
+
+### Goal Scored
+- Ball fully crosses goal line inside posts and under crossbar
+- Counts as 1 goal for team
+- Taker credited with goal
+- Most common outcome in professional soccer
+
+### Goal Not Scored - Ball Saved
+- Goalkeeper stops ball before crossing line
+- Play continues (not a goal)
+- Rebound available to any player
+- Team can score from rebound
+
+### Goal Not Scored - Ball Misses
+- Ball goes wide (outside goal posts)
+- Ball goes over crossbar
+- Ball hits goal post and out
+- No goal scored
+- Play continues from goal kick or corner
+
+### Goal Not Scored - Ball Hits Post/Crossbar
+- Ball bounces off goal post
+- Ball bounces off crossbar
+- Ball may go in or out
+- If stays in play: Rebound available
+- If goes out: Goal kick or corner
+
+### Retake of Penalty
+
+**Goalkeeper Movement (Retake Condition):**
+- If goalkeeper moves feet before kick taken
+- If goalkeeper comes off line before kick
+- Penalty is retaken
+- Goalkeeper receives warning
+
+**Illegal Encroachment (Retake Condition):**
+- Other players enter penalty area early
+- Players in encroachment position
+- Depending on outcome, may retake:
+  - If goal scored: Goal counts (even with encroachment)
+  - If saved: May retake due to encroachment
+  - If missed: Retaken if encroachment affected play
+
+## Penalty Kick Violations
+
+### Kicker Violations
+
+**Double Kick:**
+- Kicker touches ball twice
+- Cannot touch ball again until another player touches
+- Indirect free kick awarded to defending team
+
+**Kicker Encroachment:**
+- Kicker not in proper position
+- Kicker enters penalty area before shot
+- Indirect free kick awarded
+
+### Goalkeeper Violations
+
+**Moving Off Line:**
+- Goalkeeper moves feet before kick
+- Goalkeeper leaves goal line before ball kicked
+- Penalty retaken
+
+**Illegal Movement:**
+- Goalkeeper moves side to side excessively
+- Goalkeeper moves forward aggressively
+- Penalty retaken if movement interferes
+
+### Other Player Violations
+
+**Encroachment:**
+- Players enter penalty area before kick
+- Players enter penalty arc before kick
+- Yellow card may be issued
+- Penalty retaken if needed
+
+**Interference:**
+- Players interfere with goalkeeper
+- Players interfere with kicker
+- Disruptive behavior
+- Yellow card or red card
+
+## Penalty Shootouts (Knockout Stage)
+
+### When Penalty Shootout Occurs
+
+In knockout tournaments (Cups, World Cup):
+
+**Procedure:**
+- If match tied after 90 minutes: Extra time (2 × 15 min)
+- If still tied after extra time: Penalty shootout
+- Group stage typically ends in draw (no shootout)
+
+### Penalty Shootout Rules
+
+#### Sequence
+
+**Round 1: First Five Penalties**
+1. Each team selects 5 penalty takers
+2. Teams alternate taking penalties
+3. First team shoots, second team shoots, etc.
+4. All 5 penalties taken by each team
+5. Total: 10 penalties (5 per team)
+
+**Determining Winner:**
+- After 5 penalties each: Compare goals
+- Team with more goals wins
+- Can win before all 5 taken (if unbeatable lead)
+
+**Extra Penalties: Sudden Death (If Tied)**
+- If tied after 5 penalties each: Sudden death
+- Continue alternating penalties
+- First team to score when opponent cannot = Winner
+- Both teams take same number of penalties
+
+#### Penalty Taker Selection
+
+**Eligible Takers:**
+- Any player on field at end of 120 minutes
+- Players who've been substituted cannot take
+- Goalkeeper typically last choice (rarely takes)
+- Outfield players preferred
+
+**Sequence:**
+- Order predetermined by team
+- Different order typically from 5 first penalties
+- First 5 predetermined before shootout
+- Sudden death order may change
+
+#### During Penalty Shootout
+
+**Positioning:**
+- Same as regular penalty kick rules
+- Goalkeeper on line
+- Other players outside penalty area
+- Referee controls proceedings
+
+**Retakes:**
+- Same rules apply (goalkeeper movement, encroachment)
+- Penalties retaken if violations occur
+
+**Conduct:**
+- No time-wasting allowed
+- Quick succession of penalties
+- Substituted players may be on sideline
+- Opposing team watches and prepares
+
+### Penalty Shootout Outcomes
+
+**Clear Winner:**
+- One team scores more penalties (obvious winner)
+- Other team mathematically cannot catch up
+- Example: Team A scores 3 in first 3, Team B scores 1
+
+**After Initial Five:**
+- If tied: Sudden death continues
+- First to create unbeatable gap wins
+- Can end 5-4, 6-5, 7-6, etc.
+
+**Rare Extreme Outcomes:**
+- Very long shootouts rare (usually decided in first few rounds)
+- Record: 34-round shootout (very rare)
+- Professional shootouts usually 5-6 rounds per team
+
+## Famous Penalty Moments
+
+### World Cup Notable Penalties
+
+**1986 Argentina vs England (Quarterfinal)**
+- Maradona's "Hand of God" penalty goal (controversial)
+- Set up Argentina's victory path
+
+**1990 West Germany vs Argentina (Final)**
+- Penalty shootout won by West Germany
+- First World Cup decided by shootout
+
+**2006 Italy vs France (Final)**
+- Zidane penalty goal (headed in, unusual)
+- Italy won shootout 5-3
+
+**2014 Germany vs France (Quarterfinal)**
+- Germany won 1-0 with penalty
+- Early penalty decided match
+
+**2022 Argentina vs France (Final)**
+- France scored 2 penalties in regulation
+- Argentina won in shootout (3-3 after extra time, 4-2 in shootout)
+- Messi's redemption moment
+
+### Great Penalty Savers
+
+**Famous Goalkeepers:**
+- Gianluigi Buffon: Many famous penalty saves
+- Peter Schmeichel: Euro 1992 shootout
+- Iker Casillas: Multiple shootout saves
+- Gianluigi Donnarumma: Euro 2020 shootout
+
+## Penalty Taking Strategy
+
+### Kicker Strategies
+
+**Placement:**
+- High corners: Difficult to reach
+- Low corners: Risk missing wide
+- Central: Risky (goalkeeper expects)
+- Panenka (chip): Cheeky, high-risk
+
+**Power:**
+- High velocity: Less time to react
+- Slow roll: Precision over power
+- Curved: Swerving ball difficult to save
+
+**Psychological:**
+- Confident approach: Decisiveness
+- Hesitation: Goalkeeper reads
+- Routine: Consistency
+- Pressure situations: Mental strength
+
+### Goalkeeper Strategies
+
+**Positioning:**
+- Stay central: Cover both sides
+- Guess direction: Commit early
+- Narrow angles: Reduce target area
+- Stay tall: Take up space
+
+**Reading:**
+- Watch kicker's body language
+- Anticipate shot direction
+- Recognize favorite spots
+- Adapt in shootouts
+
+## Penalty Kick Statistics
+
+### Professional League Statistics
+
+**Conversion Rate (Goals Scored)**
+- Approximately 75-80% of penalties scored
+- Top strikers: 85%+ conversion
+- Saves: 20-25% of penalties saved
+
+**By League:**
+- Premier League (England): ~78% conversion
+- La Liga (Spain): ~80% conversion
+- Serie A (Italy): ~77% conversion
+
+### World Cup Penalty Statistics
+
+**Group Stage:**
+- Fewer penalties (defensive play)
+- Average 2-3 penalties per tournament
+
+**Knockout Stage:**
+- More penalties (pressure, defensive tactics)
+- Shootout penalties frequent
+
+**Shootout Success:**
+- Germany: High success rate
+- England: Lower success rate historically
+- Brazil: Strong penalty record
+
+## Modern Changes to Penalty Rules
+
+### Recent Modifications (2019+)
+
+**Goalkeeper Movement:**
+- More strict enforcement of "no movement"
+- Feet must remain on line
+- Modern VAR makes this clearer
+
+**Handball Interpretation:**
+- More objective criteria established
+- Arm position important
+- Intent considered but position emphasized
+
+**Encroachment:**
+- More strict enforcement
+- First encroachment warns
+- Multiple encroachments result in card
+
+### Potential Future Changes
+
+**Semi-Automated Offside (2024+):**
+- May affect penalty calls indirectly
+- Clearer position data
+
+**Goal-Line Technology:**
+- Already used
+- Ensures accuracy of goal line positions
+
+**Potential Shooter Reforms:**
+- Running start restrictions (discussed)
+- Arch restrictions (discussed)
+- Goals in shootout count differently (proposed but rejected)
+
+## Penalty Kick Psychology
+
+### Pressure Factors
+
+**For Taker:**
+- High-pressure situation
+- Career-defining moment possible
+- Confidence important
+- Pre-kick routine matters
+
+**For Goalkeeper:**
+- Mental battle with taker
+- Anticipation critical
+- One mistake very costly
+- Redemption opportunity
+
+**For Team:**
+- Entire season may depend
+- Player confidence affects performance
+- Team morale impacts
+
+### Famous Penalty Misses
+
+**High-Profile Misses:**
+- Euro 2012 Final: Bonucci missed
+- World Cup 2006: Trezeguet missed (golden goal in shootout)
+- Champions League finals: Multiple famous misses
+- International matches: Pressure situations
+
+## Conclusion
+
+Penalty kicks are fundamental to modern soccer, representing moments of high drama and intense pressure. Whether in regular play or penalty shootouts, penalties often determine tournament outcomes and remain one of soccer's most analyzed and discussed aspects.

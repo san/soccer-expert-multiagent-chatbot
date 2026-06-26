@@ -1,0 +1,474 @@
+Title: World Cup Competition Rules and Fair Play
+Source: FIFA Official Regulations
+Last Updated: 2026-06-22
+Type: Tournament Rules
+---
+
+## Fair Play and Conduct Rules
+
+### Player Discipline
+
+#### Yellow Card Offenses
+
+**Unsporting Behavior:**
+- Excessive celebration (taking off shirt)
+- Offensive gesture
+- Simulation (diving)
+- Delay of game
+- Entering field without permission
+- Leaving field without permission
+- Excessive noise/distraction
+
+**Penalties:**
+- Yellow card issued
+- Accumulation: 2 yellow cards = red card
+- Caution recorded in official records
+- Team continues with 11 players
+
+#### Red Card Offenses (Straight Red)
+
+**Violent Conduct:**
+- Striking opponent with fist
+- Serious violent play
+- Kicking opponent
+
+**Denying Goal-Scoring Opportunity:**
+- Deliberate handball to prevent goal
+- Holding/pulling down striker on breakaway
+- Serious foul to prevent clear scoring chance
+
+**Spitting:**
+- Spitting at opponent
+- Spitting in general
+- Severe misconduct
+
+**Offense Language:**
+- Racial abuse
+- Offensive language
+- Discriminatory conduct
+
+**Penalties:**
+- Red card issued (immediate ejection)
+- Player cannot be replaced (team plays with 10)
+- Suspension from next match(es)
+- Possible tournament ban
+
+### Group Stage Discipline
+
+#### Yellow Card Accumulation
+
+**Consequences:**
+- 1 yellow card: Caution (continues playing)
+- 2 yellow cards in same match: Red card (ejected)
+- 2 yellow cards in different group matches: Automatic suspension for next match
+
+**Group Stage Suspension Rule:**
+- Accumulate 2 yellow cards across group stage matches
+- Automatic one-match suspension
+- Player misses next group match
+- Resets after group stage
+
+#### Knockout Stage Discipline
+
+**Yellow Card Carryover:**
+- Yellow cards DO NOT carry into knockout stage
+- Slate wiped clean at knockout phase
+- Can accumulate new cards (2 = red card ejection)
+
+**Red Card Consequences:**
+- Ejection from that match (cannot continue)
+- Automatic suspension for next match (minimum)
+- Possible tournament ban
+
+### Fair Play Award
+
+#### Purpose
+
+The FIFA Fair Play Award recognizes:
+- Teams with best disciplinary record
+- Sportsmanship and conduct
+- Positive player behavior
+- Respect for opponents and officials
+
+#### Criteria
+
+**Scoring System:**
+- Yellow cards: -1 point each
+- Red cards: -5 points each
+- Player ejections for discipline: Negative points
+
+**Additional Considerations:**
+- Behavior during/after matches
+- Respect for opponents
+- Conduct in victory/defeat
+- Team organization and discipline
+
+#### Winners
+
+- Typically awarded to defensive, well-disciplined teams
+- Sometimes controversial (teams that play physically but fairly)
+- Recognition for tournament sportsmanship
+
+### National Team Discipline
+
+#### Confederation Fines and Penalties
+
+**Based on:**
+- Crowd misconduct (fan behavior)
+- Official misconduct
+- Player strikes or boycotts
+- Team violations
+
+**Consequences:**
+- Monetary fines (€10,000-€100,000+)
+- Match suspensions
+- Stadium closures
+- Possible tournament disqualification (extreme cases)
+
+## Qualification Rules
+
+### Confederation Qualification Process
+
+#### Preliminary Round
+
+**Teams Playing:**
+- Lowest-ranked teams by FIFA rating
+- Geographically-based groups
+
+**Format:**
+- Home and away matches (two-leg ties)
+- Winners advance to main qualifying
+- Losers eliminated
+
+#### Main Qualification Stage
+
+**Groups:**
+- Divided by confederation
+- Round-robin format (each team plays every other once or twice)
+- Top teams qualify
+
+**Advancement:**
+- Top 1-2 teams per group qualify
+- Usually top 2 advance
+- Some confederations have additional rounds
+
+#### Inter-confederation Playoffs
+
+**Purpose:**
+- Determine final spots for some regions
+- Lower-ranked confederations compete
+
+**Format:**
+- One confederation's 4th place team vs. another confederation
+- Two-leg or single-leg match
+
+**Example:**
+- Oceania winner vs. South American 5th place
+- Determines final qualification spot
+
+### Qualification Statistics
+
+#### Participation
+
+**Total Teams:**
+- 209+ FIFA member nations participate in qualification
+- Only 32 compete in final tournament
+- Approximately 15% qualification rate
+
+**Confederation Spots (Current, 32-team format):**
+- UEFA (Europe): 13 teams
+- CONMEBOL (South America): 4-5 teams
+- AFC (Asia): 4-5 teams
+- CAF (Africa): 5 teams
+- CONCACAF (North/Central America): 3-4 teams
+- OFC (Oceania): 0-1 teams
+
+#### Qualification Duration
+
+**Timeline:**
+- Approximately 18-24 months
+- Multiple match days (8-10 match days typical)
+- Spread across calendar (international match windows)
+- Ends 2-3 months before tournament
+
+### Eligibility Requirements
+
+#### National Team Representation
+
+**Citizenship:**
+- Player must hold passport of country represented
+- FIFA registration required
+- Cannot change countries (irreversible)
+
+**Exceptions:**
+- Dual citizenship: Player chooses one
+- Once chosen, cannot represent other country
+- Binding decision
+
+#### Previous Tournament Experience
+
+**No Restrictions:**
+- Players can change confederation (if changing citizenship)
+- Rare occurrence
+- Must follow citizenship transfer rules
+
+### Replacement Rules
+
+#### Injury Replacement
+
+**Procedure:**
+- If player injured (documented by team doctor)
+- Can be replaced by replacement player
+- Medical report required
+- FIFA must approve
+
+**Timing:**
+- Must be approved before tournament starts (usually)
+- Cannot replace during tournament (except in extreme circumstances)
+
+#### Suspended Player Replacement
+
+**Eligibility:**
+- If player suspended, can be replaced
+- Rare occurrence (typically not allowed mid-tournament)
+
+## Technical Rules
+
+### Ball Control and Play
+
+#### Offside Rule
+
+**Offside Position:**
+- Forward line: Nearer to goal than both ball and opponent
+- When pass made: Must be in own half or have 2 opponents nearer to goal
+
+**Not Offside:**
+- Goal kick
+- Throw-in
+- Corner kick
+- Own goal
+- Already in own half
+
+**Modern Interpretation:**
+- Part of body where goal can be scored (head, torso, leg)
+- Not offside if arms used (cannot score with arm anyway)
+- Tight calls reviewed by VAR
+
+#### Handball Rule
+
+**Deliberate Handball Offense:**
+- Hand moves toward ball
+- Ball hits arm away from body
+- Blocks ball with arm
+- Unnatural position extends arm
+
+**Not Handball:**
+- Ball deflects off body then arm
+- Arm in natural position close to body
+- Very close distance (unexpected)
+- Arm shields body from shot
+
+### Playing Time and Substitutions
+
+#### Duration of Match
+
+**Regular Time:**
+- Two 45-minute halves
+- 90 minutes total playing time
+- Stoppage time added (1-5 minutes typical)
+
+**Extra Time (Knockout Only):**
+- If tied after 90 minutes: 30 additional minutes
+- Two 15-minute halves
+- Stoppage time added
+
+**Penalty Shootout:**
+- If tied after extra time (120 minutes): 10-30 minutes for shootout
+- Each team takes 5 penalties (or more if tied)
+
+#### Substitutions
+
+**Allowances:**
+- 3 substitutions (increased to 5 in some tournaments)
+- Can be made at any time (ball doesn't stop)
+- Replaced player cannot return
+- Each player must cross halfway line
+
+**Modern Changes (Post-2020):**
+- Increased to 5 substitutes (some tournaments)
+- Addressed player fatigue concerns
+- Increased tactical flexibility
+
+## Match Regulations
+
+### Kickoff
+
+**Procedure:**
+- Coin flip determines which team kicks off
+- Loser gets choice of ends (field direction)
+- Kicking off team: All players in own half
+- Ball must move forward
+- Scored directly: Cannot (goal kick awarded)
+
+### Restarts
+
+#### Goal Kick
+- Ball placed in goal box
+- Kicked out of penalty area
+- Cannot score directly (corner kick if goes over)
+
+#### Corner Kick
+- Ball placed in corner arc (1-yard radius)
+- Kicked by defending team (after attacking team last touched)
+- Can score directly
+- Typical delivery: High ball into box
+
+#### Throw-In
+- Ball thrown by hand over head
+- Both feet on ground (or behind line)
+- Thrown to teammate
+- Cannot score directly (goal kick if goes over)
+
+## Win/Loss and Advancement
+
+### Match Results
+
+**Possible Outcomes:**
+- Win (3 points)
+- Draw (1 point each)
+- Loss (0 points)
+
+**Progression:**
+- Group stage: Points determine advancement
+- Knockout stage: Win or go home (no draws after extra time/shootout)
+
+### Tournament Advancement
+
+#### Group Stage Advancement Criteria (in order)
+1. Points total (win=3, draw=1, loss=0)
+2. Goal difference (goals scored minus goals conceded)
+3. Total goals scored
+4. Head-to-head record (matches between tied teams)
+5. Head-to-head goal difference
+6. Head-to-head goals scored
+7. Fair play points (yellow cards = -1, red = -5)
+8. Drawing lots (if still tied, very rare)
+
+#### Knockout Stage Progression
+- Win: Advance to next round
+- Draw after 90 minutes: Extra time (30 minutes)
+- Draw after extra time: Penalty shootout
+- Shootout winner: Advances
+- Shootout loser: Eliminated
+
+## Broadcasting and Media Rights
+
+### Broadcasting Regulations
+
+**Transmission:**
+- FIFA controls broadcasting rights
+- Television and online streaming rights granted to specific entities
+- Blackout rules: None (tournament televised globally)
+
+**Conflicts:**
+- Some nations have exclusive broadcast partners
+- Time zones affect viewing schedules
+- Multiple streams/channels available in major countries
+
+### Media Access
+
+**Press and Journalists:**
+- FIFA credentials required
+- Accreditation process
+- Access to matches and press conferences
+- Restrictions: Broadcast areas, team areas
+
+## Tournament Integrity
+
+### Anti-Corruption Measures
+
+**FIFA Regulations:**
+- Betting restrictions on players
+- Match-fixing prevention protocols
+- Investigation of suspicious activity
+- Cooperation with betting authorities
+
+**Penalties:**
+- Lifetime bans for corruption
+- Team sanctions
+- Disqualification from tournament
+
+### Anti-Doping
+
+**Testing:**
+- Random anti-doping tests
+- Out-of-competition testing
+- Post-match testing
+
+**Banned Substances:**
+- Stimulants
+- Anabolic steroids
+- Peptide hormones
+- Masking agents
+
+**Consequences:**
+- Individual player suspension
+- Possible criminal charges
+- Reputation damage
+
+## Environmental and Sustainability Rules
+
+### Modern Tournament Standards
+
+**Environmental Considerations:**
+- Carbon offset programs
+- Sustainable stadium practices
+- Waste management
+- Energy efficiency
+
+**Social Responsibility:**
+- Community engagement
+- Worker protections
+- Human rights standards
+
+## Accessibility Requirements
+
+### Accessibility Standards
+
+**Stadium Requirements:**
+- Wheelchair accessibility
+- Disabled seating areas
+- Accessible facilities
+- Transportation access
+
+**Broadcasting:**
+- Closed captioning
+- Audio descriptions
+- Multiple language options
+
+## Financial Regulations
+
+### Team Travel and Accommodation
+
+**FIFA Provisions:**
+- Hotels and accommodations provided
+- Travel arrangements
+- Meal per diems
+- Medical facilities
+
+### Revenue Distribution
+
+**Prize Money:**
+- FIFA awards tournament prize money
+- Winner: Largest share
+- Finalists and advanced teams: Amounts based on progression
+- All participating teams: Base participation fee
+
+**Broadcasting Rights Revenue:**
+- Distributed among member confederations
+- Used for development programs
+- Administrative costs
+
+## Conclusion
+
+World Cup competition rules ensure fair play, maintain integrity, and provide a level playing field for all participating teams. These regulations have evolved to address modern challenges while preserving the sport's fundamental values.

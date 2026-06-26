@@ -1,0 +1,409 @@
+Title: Laws of the Game - Soccer Rules
+Source: FIFA Laws of the Game Official Document
+Last Updated: 2026-06-22
+Type: Official Rules
+Reference: IFAB (International Football Association Board)
+---
+
+## Overview of the Laws of the Game
+
+The Laws of the Game are the rules by which soccer (association football) is played. They are maintained by the International Football Association Board (IFAB) and updated annually.
+
+Total Laws: 17 main laws covering all aspects of the game
+
+## Law 1: The Field of Play
+
+### Dimensions
+- Length (touchline): 100-130 yards (90-120 meters)
+- Width (goal line): 50-100 yards (45-90 meters)
+- Professional standard: 115 yards × 74 yards (105m × 68m)
+
+### Field Markings
+- Touchline: Long side boundaries
+- Goal line: Short side boundaries at goals
+- Halfway line: Divides field into two halves
+- Center circle: 10-yard radius around center spot
+- Center spot: Where kick-off occurs
+- Goal area: 6 yards × 20 yards (penalty box extension)
+- Penalty area: 18 yards × 44 yards
+- Penalty spot: 12 yards from goal line
+- Penalty arc: 10-yard arc outside penalty area
+
+### Goal
+- Width: 8 yards (7.32 meters)
+- Height: 8 feet (2.44 meters)
+- Goal lines and posts marked with white lines
+- Net attached behind goal
+
+## Law 2: The Ball
+
+### Specifications
+- Circumference: 27-28 inches (68-70 centimeters)
+- Weight: 14-16 ounces (410-450 grams)
+- Air pressure: 0.6-1.1 atmosphere at sea level
+- Material: Typically synthetic leather or rubber
+- Spherical in shape
+
+### Ball In/Out of Play
+- Ball in play: When entire ball is not over goal line or touchline
+- Ball out of play: When entire ball crosses goal line or touchline (in air or on ground)
+- Also out when play stopped by referee
+
+## Law 3: The Players
+
+### Number of Players
+- Each team: 11 players maximum on field
+- Typically: 1 goalkeeper, 10 outfield players
+- Minimum: 7 players to continue match (rules vary by league)
+
+### Goalkeeper
+- Designated goalkeeper wears different colored jersey
+- Only player allowed to handle ball with hands in penalty area
+- Can use hands for:
+  - Catching the ball
+  - Throwing the ball
+  - Rolling the ball with hands or feet
+- Cannot handle:
+  - Ball deliberately kicked to them by teammate
+  - Ball thrown directly in by teammate
+
+### Substitutions
+- Each team allowed: typically 3 substitutions (up to 5 in some competitions)
+- Substitutes must enter at halfway line when beckoned by referee
+- Substituted player cannot return to field
+
+## Law 4: Players' Equipment
+
+### Required Equipment
+- Jersey/shirt
+- Shorts (darker than jersey if possible)
+- Socks (covering shin guard)
+- Shin guards (protective equipment under socks)
+- Appropriate footwear (boots or shoes with studs)
+- Goalkeeper gloves (not required but standard)
+
+### Equipment Colors
+- Each team wears contrasting colors
+- Goalkeeper wears color different from both teams
+- Numbers on back (typically 1-99)
+- Optional: Name on back
+
+### Safety Requirements
+- No jewelry (rings, necklaces, earrings)
+- No items that endanger other players
+- Shin guards mandatory (FIFA rule)
+- Any equipment injury risks checked by referee
+
+## Law 5: The Referee
+
+### Authority
+- Sole judge of fact
+- Enforces Laws of the Game
+- Main official with full authority
+- Keeps official time
+- Signals start/end of periods
+
+### Referee Powers
+- Issues warnings (yellow cards)
+- Sends off players (red cards)
+- Stops play for injuries
+- Restarts play with referee's whistle
+- Determines goals and no-goals (VAR assistance allowed)
+- Full control over game conduct
+
+### Referee Equipment
+- Whistle (to signal decisions)
+- Yellow cards (warnings/cautions)
+- Red cards (ejection)
+- Notebook (recording incidents)
+- Timepiece (tracking match time)
+
+## Law 6: The Other Match Officials
+
+### Assistant Referees (Linesmen)
+- Two assistants on sidelines
+- Flag signals for:
+  - Offside decisions
+  - Throw-ins
+  - Corner kicks vs. goal kicks
+  - Out of bounds
+- Flag held horizontally (throw-in), diagonal (offside), straight up (goal kick), etc.
+
+### Fourth Official
+- Manages substitutions
+- Displays substitution numbers on board
+- Assists with timekeeping
+- Backs up main referee
+
+### Video Assistant Referee (VAR)
+- Introduced at World Cup 2018
+- Reviews contentious decisions:
+  - Goals and whether ball fully crossed line
+  - Penalty decisions
+  - Red card incidents
+  - Case of mistaken identity
+- Can recommend on-field review
+
+## Law 7: Match Duration
+
+### Standard Match
+- Duration: 90 minutes
+- Two halves: 45 minutes each
+- Half-time break: 15 minutes (typically)
+
+### Stoppage Time
+- Referee adds extra time for stoppages:
+  - Injuries
+  - Substitutions
+  - Time-wasting
+  - Deliberate delays
+- Typically 1-5 minutes per half (discretionary)
+
+### Draws and Extra Time
+- Group stage: Match ends in draw (no extra time)
+- Knockout matches: Extra time of 2 × 15 minutes
+- If still tied after extra time: Penalty shootout
+
+## Law 8: Start and Restart of Play
+
+### Kick-Off
+- Occurs at center spot with ball at rest
+- All players except opposing two outside center circle
+- Ball kicked forward (toward opposing goal)
+- Kicker cannot touch ball again until another player touches it
+- Goal cannot be scored directly from kick-off
+
+### Restart After Stoppage
+- Referee signals restart with whistle
+- Various restart methods:
+  - Kick-off (after goal, half-time, delay)
+  - Throw-in (from touchline)
+  - Corner kick (when defending team puts ball over goal line)
+  - Goal kick (when attacking team puts ball over goal line)
+  - Free kick (after foul)
+  - Penalty kick (for foul in penalty area)
+
+### Dropped Ball (Restart)
+- Used when referee stops play for external reason
+- Referee drops ball between two opposing players
+- Ball allowed to touch ground before play resumes
+
+## Law 9: The Ball In and Out of Play
+
+### Ball In Play
+- When entire ball is between goal lines and touchlines (including in air)
+- Remains in play if:
+  - Touches referee or assistant
+  - Bounces off goal post, crossbar
+  - Remains in air inside field boundaries
+
+### Ball Out of Play
+- When entire ball crosses goal line or touchline
+- When play stopped by referee
+- Restarted per Laws 8-11 (various restart methods)
+
+## Law 10: Determining the Outcome
+
+### Scoring a Goal
+- Entire ball must cross goal line between goal posts and under crossbar
+- Ball can be any size ball in play
+- Ball may be intentionally or unintentionally directed
+- Goal cannot be disallowed for hand ball by attacking player (unless hand-to-ball direct contact deliberately)
+
+### Goal Scoring Rules
+- Player may score from:
+  - Direct kick
+  - Rebound off goal post or crossbar
+  - From own header, chest, any body part (except deliberate hand)
+  - Deflections off opponents or own players
+
+### Winning Match
+- Team scoring most goals wins
+- If tied: 
+  - Group stage: Draw (each team gets 1 point)
+  - Knockout stage: Extra time, then penalties
+
+### Golden Goal/Silver Goal
+- Phased out in modern soccer
+- Previously: Sudden-death extra time or first goal in extra time
+- Current: Standard extra time then penalties
+
+## Law 11: Offside
+
+### Offside Position
+- Player is in offside position when:
+  - Player is nearer to opponent's goal line than both ball and at least 2 opponents
+  - Typically when ahead of last defender and goalkeeper
+  - OR nearer to goal line than last defensive player
+
+### Offside NOT Called When
+- Player is in own half of field
+- Player level with last 2 opponents
+- Player level with ball
+- Player receives ball directly from:
+  - Throw-in
+  - Goal kick
+  - Corner kick
+
+### Offside Offense
+- Offside position alone is not an offense
+- Offense when player:
+  - Actively participates in play
+  - Interferes with opponent
+  - Gains advantage from offside position
+  - Ball passed back by teammate (typical offside scenario)
+
+### Penalty for Offside
+- Indirect free kick to defending team from offside position
+
+### Recent Offside Technology
+- Goal-line technology confirms goals
+- VAR reviews offside decisions
+- Semi-automated offside systems being tested (2024+)
+
+## Law 12: Fouls and Misconduct
+
+### Direct Free Kick Offenses (Direct Free Kick Awarded)
+- Punching/striking opponent with hand
+- Kicking/attempting to kick opponent
+- Jumping at opponent
+- Charging opponent violently or dangerously
+- Pushing opponent
+- Tackling opponent dangerously
+- Spitting at opponent
+- Deliberately handling ball (except goalkeeper in penalty area)
+- Deliberately denying goal-scoring opportunity by hand
+- Dangerous play (overhead kicks near opponent)
+
+### Indirect Free Kick Offenses
+- Dangerous play without contact
+- Obstruction of opponent
+- Goalkeeper handling deliberate back-pass from teammate
+- Goalkeeper handling throw-in from teammate
+- Unsporting behavior
+- Excessive celebration
+- Time-wasting
+- Wearing inappropriate equipment
+- Entering/re-entering field without permission
+- Leaving field without permission
+
+### Penalty Kick
+- Awarded for direct free kick offenses in penalty area
+- Taken from penalty spot (12 yards from goal)
+- All players except kicker and goalkeeper must be outside penalty area
+- If goal not scored, can restart normally
+
+## Law 13: Free Kicks
+
+### Direct Free Kick
+- Goal can be scored directly
+- Awarded for contact fouls and handball
+
+### Indirect Free Kick
+- Goal cannot be scored directly
+- Must be touched by second player before scoring
+- Marked by referee raising arm overhead
+
+### Free Kick Procedure
+- Ball placed at offense location
+- Referee signals when all players positioned
+- Kicker strikes ball (ball must move to be in play)
+- Cannot touch ball again until another player touches it
+- Ball placed on ground (not in hand)
+
+## Law 14: Penalty Kick
+
+### When Awarded
+- Direct free kick offense by defending team in their penalty area
+- Intentional handball in penalty area
+- Deliberately preventing goal-scoring chance by handball
+
+### Penalty Kick Procedure
+- Ball placed on penalty spot
+- Goalkeeper on goal line between posts
+- Goalkeeper cannot move feet until kick taken
+- All other players outside penalty area and penalty arc
+- Kicker approaches and strikes ball
+- Goal scored if ball enters goal and doesn't go out of play
+
+### Penalty Kick Outcomes
+- Goal: If ball fully crosses goal line
+- No goal: If ball goes wide, over, or hits post/crossbar
+- Retake: If goalkeeper moved illegally (foot movement before kick)
+- Penalty to other team: If kicker offended (e.g., kicked ball twice)
+
+## Law 15: The Throw-In
+
+### When Awarded
+- Ball goes out of play over touchline
+- Awarded to team that didn't last touch ball
+- Taken from point ball went out
+
+### Throw-In Procedure
+- Thrower faces field with both feet on or behind touchline
+- Both hands used, ball thrown from behind and over head
+- Both feet must remain on ground during throw
+- Ball must enter field from above head level
+- Thrower cannot touch ball again until another player touches it
+
+### Throw-In Outcomes
+- Goal cannot be scored directly from throw-in
+- If improperly thrown: Throw-in to opposing team
+
+## Law 16: Goal Kick
+
+### When Awarded
+- Attacking team last touches ball over goal line
+- Ball goes out of play over goal line (not goal)
+
+### Goal Kick Procedure
+- Kicked from goal area
+- Goalkeeper typically takes kick
+- Ball must leave penalty area before play resumes
+- Cannot score directly from goal kick
+- Kicker cannot touch ball again until another player touches it
+
+### Goal Kick Outcomes
+- Goal not allowed directly
+- If ball doesn't leave penalty area: Retaken
+- If opponent enters penalty area: Retaken
+
+## Law 17: The Corner Kick
+
+### When Awarded
+- Defending team last touches ball before going over goal line
+- Ball doesn't go directly into goal
+
+### Corner Kick Procedure
+- Taken from corner area (1-yard arc)
+- Kicked by attacking team
+- Defenders must be at least 10 yards away
+- Ball must be struck with foot
+- Kicker cannot touch ball again until another player touches it
+
+### Corner Kick Outcomes
+- Goal can be scored directly from corner
+- Most common set-play for scoring
+- Often used for head-ball attempts (crosses to tall players)
+
+## Summary of Key Rules
+
+### Restarts
+1. Kick-off: Start of half or after goal
+2. Throw-in: Ball over touchline
+3. Goal kick: Attacking team knocks over goal line
+4. Corner kick: Defending team knocks over goal line
+5. Direct free kick: Contact fouls
+6. Indirect free kick: Non-contact fouls
+7. Penalty kick: Direct foul in penalty area
+
+### Misconduct
+- Yellow card: Caution for misconduct
+- Red card: Dismissal for severe misconduct
+- Two yellows in match = one red
+
+### Common Offenses
+- Offside: Attacking near goal line with no defender
+- Handball: Deliberate hand contact with ball (outside goalkeeper penalty area)
+- Fouls: Contact offenses (kicking, pushing, charging)
+- Dangerous play: Risk to opponent safety

@@ -1,0 +1,475 @@
+Title: FIFA World Cup Tournament Format and Structure
+Source: FIFA Official Regulations
+Last Updated: 2026-06-22
+Type: Tournament Rules and Procedures
+---
+
+## FIFA World Cup Structure Overview
+
+The FIFA World Cup is organized into two main phases:
+
+1. **Qualification Phase** (18-24 months before tournament)
+2. **Final Tournament Phase** (approximately 28-30 days)
+
+## Qualification Phase
+
+### Purpose
+
+The qualification process determines which national teams participate in the final tournament. Only 32 teams (or 48 in future) qualify for the final tournament.
+
+### Qualification Process
+
+**By Confederation (Number of Spots):**
+- UEFA (Europe): 13 teams
+- CONMEBOL (South America): 4-5 teams
+- CAF (Africa): 5 teams
+- AFC (Asia): 4-5 teams
+- CONCACAF (North/Central America): 3-4 teams
+- OFC (Oceania): 0-1 teams (often plays-off)
+
+**Automatic Qualification:**
+- Host nation: Automatically qualifies
+- Previous tournament champion: No longer automatic (changed in 2022)
+
+### Qualification Structure
+
+**Confederation-Based:**
+- Each confederation organizes own qualification
+- Round-robin matches, two-leg playoffs, groups
+- Top teams from each confederation advance
+
+**Intercontinental Playoffs:**
+- Occasionally used when needed
+- Lower-ranked confederations play for spots
+- Example: Oceania team vs. South American team
+
+### Duration
+
+- Qualification: Approximately 18-24 months
+- 2024-2026: Current cycle for 2026 tournament
+- Multiple match days spread across calendar
+
+## Final Tournament Phase
+
+### Modern Format (1998-2022)
+
+**32 Teams, 8 Groups**
+
+**Group Stage:**
+- 32 teams divided into 8 groups
+- 4 teams per group
+- Each team plays 3 matches (one vs. each other team)
+- Round-robin format within group
+- 64 matches total (8 groups × 4 matches per group)
+
+**Match Schedule:**
+- First round: 8 matches (day 1-2)
+- Days 2-4: Group stage continues
+- Final group matches: All groups simultaneous (prevents collusion)
+- Approximately 4-5 days for group stage
+
+### Knockout Stage (Round of 16)
+
+**Progression:**
+- Top 2 teams from each group advance
+- 16 teams total (8 winners + 8 runners-up)
+
+**Seeding:**
+- Group winners: Positioned based on points/goal difference
+- Runners-up: Seeded appropriately
+- Bracket set so group winners face runners-up generally
+
+**Match Format:**
+- Single-elimination (one loss = elimination)
+- 8 matches (Round of 16)
+
+### Quarterfinals (Round of 8)
+
+**Teams:**
+- 8 teams remaining (winners of Round of 16)
+
+**Match Format:**
+- Single elimination
+- 4 matches
+- Winner advances to semifinal
+- Loser eliminated
+
+### Semifinals (Round of 4)
+
+**Teams:**
+- 4 teams remaining (winners of quarterfinals)
+
+**Match Format:**
+- Single elimination
+- 2 matches
+- Winners advance to final
+- Losers compete for 3rd place
+
+### Third-Place Match
+
+**Purpose:**
+- Determines 3rd and 4th place finishers
+- Consolation match for semifinal losers
+
+**Format:**
+- Single match between two semifinal losers
+- Winner: 3rd place
+- Loser: 4th place
+
+**Modern Significance:**
+- Smaller significance (both teams eliminated)
+- Still played in major tournaments
+
+### Final Match (Championship)
+
+**Teams:**
+- 2 semifinal winners
+
+**Format:**
+- Single match to determine champion
+- Most watched match of tournament
+- Draw possible at 90 minutes (extra time, shootout)
+
+**Importance:**
+- Determines World Cup champion
+- Global viewership: 1+ billion viewers
+- Career-defining for players
+
+## Knockout Stage Details
+
+### Extra Time (If Tied)
+
+**Format:**
+- 90 minutes regular time + extra time (if tied)
+- Extra time: 2 × 15 minutes (total 30 minutes)
+- Golden goal rule: Eliminated (since 2006)
+- Silver goal rule: Eliminated
+
+**Procedure:**
+- Teams continue play for 30 additional minutes
+- If goal scored in extra time: play continues (not automatic win)
+- If no goal after extra time: Penalty shootout
+
+### Penalty Shootout
+
+**When Used:**
+- If match tied after 120 minutes (90 + 30)
+- Knockout stage only (group stage ends in draw)
+
+**Procedure:**
+- Each team selects 5 penalty takers
+- Teams alternate taking penalties
+- 5 penalties per team (10 total)
+- If tied after 5: Sudden death
+
+**Winner:**
+- First team to create unbeatable gap
+- Example: After 3 rounds, Team A scored 3, Team B scored 1
+- Team A wins before all 5 penalties taken
+
+## Scoring and Qualification System
+
+### Group Stage Points
+
+**Point System:**
+- Win: 3 points
+- Draw: 1 point each
+- Loss: 0 points
+
+**Advancement Criteria:**
+- Top 2 teams in each group advance
+- If tied on points: Goal difference
+- If tied on goal difference: Goals scored
+- If still tied: Head-to-head record (matches between tied teams)
+- If still tied: Fair play (yellow/red cards)
+- If still tied: Drawing lots (rare)
+
+### Example Group Scenario
+
+**Group Standings:**
+```
+Team      Played  Won  Draw  Loss  GF  GA  GD  Pts
+France      3     2    1     0    5   1   +4   7
+Brazil      3     2    0     1    4   2   +2   6
+Mexico      3     1    0     2    3   4   -1   3
+Costa Rica  3     0    1     2    2   7   -5   1
+```
+
+**Analysis:**
+- France: 1st place (7 points)
+- Brazil: 2nd place (6 points, +2 goal difference)
+- Mexico: 3rd place (3 points, eliminated)
+- Costa Rica: 4th place (1 point, eliminated)
+
+## Tournament Calendar
+
+### Typical Tournament Schedule (28-30 days)
+
+**Day 1-5: Group Stage (Round 1)**
+- First round of group matches
+- All groups represented
+- 8 matches per day
+
+**Day 6-12: Group Stage Continuation**
+- Final rounds of group stage
+- Final matches played simultaneously
+- Group stage concludes
+
+**Day 13: Rest Days**
+- Teams recover from group stage
+- Preparations for knockout
+
+**Day 14-16: Round of 16**
+- First knockout stage
+- 8 matches over 3 days
+- Single elimination begins
+
+**Day 17: Rest Days**
+- Teams recover from knockout
+
+**Day 18-20: Quarterfinals**
+- 4 matches (2 per day)
+- Teams eliminated continue home
+
+**Day 21: Rest Day**
+- Semifinal preparation
+
+**Day 22-23: Semifinals**
+- 2 matches
+- Two teams eliminated, two advance to final
+
+**Day 24: Rest Day**
+- Final preparation
+- Tournament-wide buildup
+
+**Day 25: 3rd Place Match**
+- Loser of first semifinal vs. Loser of second semifinal
+- Determines 3rd/4th place
+
+**Day 26-28: Final**
+- Championship match
+- Celebration and closing ceremony
+
+## Future Format Changes (2026+)
+
+### Expansion to 48 Teams
+
+**New Format:**
+- 16 groups of 3 teams (48 teams total)
+- 80 matches total (vs. 64 currently)
+- More teams from emerging nations
+
+**Group Stage:**
+- Each team plays 2 matches in group
+- Top 2 advance from each group
+- Some 3rd-place teams also advance (complicated tie-breaker)
+
+**Knockout:**
+- 32 teams in knockout (8 groups of 4 → Round of 16)
+- Quarterfinals: 16 → 8
+- Semifinals: 8 → 4
+- 3rd place: 4 → 2 (match for 3rd)
+- Final: 2 → 1 (champion)
+
+**Advantages:**
+- More teams participate
+- More nations represented
+- Emerging soccer nations get opportunities
+- More matches = more revenue
+
+**Disadvantages:**
+- More uncompetitive matches
+- Group stage may be boring
+- Travel distances increase
+- Tournament extended to 30+ days
+
+### Proposed Changes (Under Discussion)
+
+**Biennial World Cup:**
+- Play every 2 years instead of 4
+- Currently: Every 4 years (standard)
+- Proposed by FIFA (controversial)
+- Status: Rejected or delayed
+
+**Super Group Stage:**
+- 16-team groups instead of 4-team groups
+- All play all (15 matches per team)
+- Status: Not adopted
+
+**Tournament Expansion to 64 Teams:**
+- Proposed for future consideration
+- Would require significant restructuring
+
+## Tournament Regulations
+
+### Team Composition
+
+**Squad Size:**
+- 23 players for final tournament (typical)
+- Expanded to 26 in 2022 (for COVID reasons, now standard)
+- Breakdown: Goalkeepers (3), Defenders (8), Midfielders (6), Forwards (3-5)
+
+**Substitutions:**
+- 3 substitutes during match (can be increased)
+- Maximum 3-5 substitutions allowed
+- 12 substitutes on bench (typical)
+
+### Eligibility Rules
+
+**Nationality:**
+- Must be citizen of country represented
+- Passport holder
+- FIFA registration rules apply
+
+**Transfers:**
+- Can transfer clubs during qualifiers (no restriction from club)
+- Guaranteed release during World Cup period
+
+**Injury Rule:**
+- Injured player can be replaced by replacement player
+- Doctor's report required
+- Rare occurrence (serious injury only)
+
+### Match Conditions
+
+**Ball:**
+- Official FIFA-approved ball
+- Weight: 410-450 grams
+- Circumference: 68-70 cm
+- Pressure specifications met
+
+**Field:**
+- Length: 100-130 yards (90-120 meters)
+- Width: 50-100 yards (45-90 meters)
+- World Cup matches: Standard FIFA size
+- Surface: Grass (some venues use hybrid grass)
+
+**Footwear:**
+- Standard soccer cleats
+- Studs/cleats must meet safety standards
+
+### Match Officials
+
+**Referees:**
+- 1 main referee (center field)
+- 2 assistant referees (sidelines)
+- 4th official (substitutes, time management)
+- VAR official (Video Assistant Referee)
+- Assistant VAR official
+
+**Responsibilities:**
+- Enforce laws of game
+- Manage discipline (cards)
+- Manage time
+- Make decisions on play
+
+## Venue Requirements
+
+### Stadium Standards
+
+**Capacity:**
+- Minimum 40,000 seats
+- World Cup: Typically 60,000-100,000+
+- Quality venues showcase countries
+
+**Facilities:**
+- Press areas for media
+- Broadcasting facilities
+- VIP seating
+- Disabled access
+
+**Climate Control:**
+- Some stadiums have climate control
+- Important for hot climates
+- Air-conditioning in recent tournaments
+
+**Infrastructure:**
+- Transportation access
+- Hotels nearby
+- Training facilities
+- Security systems
+
+## Tournament Records by Format
+
+### 32-Team Format (1998-2022)
+
+**Group Stage:**
+- 8 groups of 4
+- 64 matches
+- Each team 3 matches
+
+**Knockout:**
+- Round of 16 (16 → 8)
+- Quarterfinals (8 → 4)
+- Semifinals (4 → 2)
+- Final (2 → 1)
+
+**Total Matches:** 64
+**Duration:** 28-30 days
+
+### 24-Team Format (1982-1994)
+
+**Group Stage:**
+- 6 groups of 4
+- 36 group matches
+- Knockout with 2 groups of 4
+
+**Knockout:**
+- 16 teams in two groups (6 matches each)
+- 4 teams to semifinals
+
+**Total Matches:** 52
+**Duration:** 26-28 days
+
+### 16-Team Format (1938-1978)
+
+**Group Stage:**
+- 4 groups of 4
+- Round-robin play
+
+**Knockout:**
+- 4 teams to semifinals
+
+**Total Matches:** 16-20
+**Duration:** Varied
+
+## Hosting Responsibilities
+
+### Host Country Duties
+
+**Infrastructure:**
+- Build or renovate stadiums
+- Accommodate 32 teams and officials
+- Provide transportation
+
+**Security:**
+- Police and security forces
+- Border control
+- Stadium safety
+
+**Broadcasting:**
+- Media centers
+- Broadcast facilities
+- Technology infrastructure
+
+**Accommodation:**
+- Hotels for teams, officials, media
+- Training facilities
+- Team bases
+
+### Financial Implications
+
+**Investment:**
+- $500 million to $15 billion typical
+- Depends on infrastructure already in place
+- Qatar 2022: $200+ billion (including infrastructure)
+
+**Revenue:**
+- Broadcasting rights: $1+ billion
+- Sponsorships: $500+ million
+- Ticket sales: $100-300 million
+
+**Legacy:**
+- Stadium usage post-tournament
+- Infrastructure improvements
+- Tourism boost
