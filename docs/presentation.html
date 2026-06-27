@@ -53,10 +53,23 @@
         .slide-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
         .slide-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; }
         .slide-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: #333; }
-        .slide-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #333; }
-        .slide-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #333; }
-        .slide-6 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); color: white; }
-        .slide-7 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; }
+        .slide-4 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .slide-5 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #333; }
+        .slide-6 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #333; }
+        .slide-7 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); color: white; }
+        .slide-8 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; }
+
+        .arch-diagram {
+            background: rgba(255,255,255,0.15);
+            padding: 30px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            line-height: 1.4;
+            backdrop-filter: blur(10px);
+            color: inherit;
+        }
 
         h1 {
             font-size: 3.5em;
@@ -318,8 +331,47 @@
             </div>
         </div>
 
-        <!-- Slide 4: Key Features -->
+        <!-- Slide 4: Architecture Diagram -->
         <div class="slide slide-4">
+            <div>
+                <h2>System Components</h2>
+                <div class="arch-diagram">
+<pre>┌──────────────────────────────────────────────┐
+│     Streamlit Frontend                       │
+│  (Interactive Chat Interface)                │
+└────────────────────┬─────────────────────────┘
+                     │ HTTP/REST
+┌────────────────────▼─────────────────────────┐
+│  FastAPI Backend (Core Application)          │
+└────────────────────┬─────────────────────────┘
+                     │
+                     ▼
+          ┌──────────────────────┐
+          │  Orchestrator Agent  │
+          └────────────┬─────────┘
+                       │
+         ┌─────────────┴──────────────┐
+         │                            │
+         ▼                            ▼
+   ┌──────────────┐        ┌─────────────────┐
+   │ Soccer Expert│        │ World Cup       │
+   │    Agent     │        │ Analyst Agent   │
+   └──────┬───────┘        └────────┬────────┘
+          │                         │
+          ▼                    ┌────┴────┐
+      ┌────────┐               │         │
+      │RAG Only│              ▼         ▼
+      └────────┘          ┌──────┐  ┌──────┐
+                          │ RAG  │  │ Web  │
+                          │First │  │Search│
+                          └──────┘  └──────┘</pre>
+                </div>
+                <p style="margin-top: 20px; font-size: 1em;"><strong>Flow:</strong> Intelligent routing ensures Soccer Expert uses verified knowledge, while World Cup Analyst adapts data sources based on query timeframe.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Key Features -->
+        <div class="slide slide-5">
             <div>
                 <h2>Core Features</h2>
                 <div class="feature-grid">
@@ -351,8 +403,8 @@
             </div>
         </div>
 
-        <!-- Slide 5: Technology Stack -->
-        <div class="slide slide-5">
+        <!-- Slide 6: Technology Stack -->
+        <div class="slide slide-6">
             <div>
                 <h2>Technology Stack</h2>
                 <div class="tech-stack">
@@ -387,8 +439,8 @@
             </div>
         </div>
 
-        <!-- Slide 6: Use Cases -->
-        <div class="slide slide-6">
+        <!-- Slide 7: Use Cases -->
+        <div class="slide slide-7">
             <div>
                 <h2>Real-World Use Cases</h2>
                 <div class="use-case-box">
@@ -410,8 +462,8 @@
             </div>
         </div>
 
-        <!-- Slide 7: Project Highlights & Next Steps -->
-        <div class="slide slide-7">
+        <!-- Slide 8: Project Highlights & Next Steps -->
+        <div class="slide slide-8">
             <div>
                 <h2>Project Status & Future</h2>
                 <h3 style="color: #333;">✅ Current Version (v1.0.0)</h3>
@@ -436,14 +488,14 @@
         <!-- Controls -->
         <div class="controls">
             <button id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
-            <span class="slide-counter"><span id="currentSlide">1</span> / <span id="totalSlides">7</span></span>
+            <span class="slide-counter"><span id="currentSlide">1</span> / <span id="totalSlides">8</span></span>
             <button id="nextBtn" onclick="changeSlide(1)">Next →</button>
         </div>
     </div>
 
     <script>
         let currentSlide = 1;
-        const totalSlides = 7;
+        const totalSlides = 8;
 
         function showSlide(n) {
             const slides = document.querySelectorAll('.slide');

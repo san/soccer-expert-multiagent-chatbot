@@ -92,7 +92,7 @@ if "api_url" not in st.session_state:
     st.session_state.api_url = os.environ.get("API_URL", "http://localhost:8000")  # Default to localhost if not set
 
 if "connected" not in st.session_state:
-    st.session_state.connected = True
+    st.session_state.connected = False
 
 # ============================================================================
 # Helper Functions
@@ -153,32 +153,13 @@ with st.sidebar:
     # API Configuration
     st.subheader("🌐 API Connection")
 
-    api_option = st.radio(
-        "Select API location:",
-        ["Local (localhost)", "Cloud Run", "Custom URL"]
+    custom_url = st.text_input(
+        "Enter API URL",
+        value=st.session_state.api_url,
+        help="Enter API URL"
     )
-
-    if api_option == "Local (localhost)":
-        st.session_state.api_url = "http://localhost:8000"
-        st.info("Using local API at http://localhost:8000")
-
-    elif api_option == "Cloud Run":
-        cloud_url = st.text_input(
-            "Cloud Run URL",
-            placeholder="https://your-project.run.app",
-            help="Enter your Cloud Run deployment URL"
-        )
-        if cloud_url:
-            st.session_state.api_url = cloud_url.rstrip("/")
-
-    else:
-        custom_url = st.text_input(
-            "Custom API URL",
-            value=st.session_state.api_url,
-            help="Enter custom API URL"
-        )
-        if custom_url:
-            st.session_state.api_url = custom_url.rstrip("/")
+    if custom_url:
+        st.session_state.api_url = custom_url.rstrip("/")
 
     # Test Connection
     if st.button("🔌 Test Connection", use_container_width=True):
