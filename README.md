@@ -51,14 +51,7 @@ The Soccer Expert Chatbot is a production-ready AI application that combines mul
            │RAG System│ │RAG System│     │ Web Search   │
            │(FAISS)   │ │(FAISS)   │     │  (Tavily)    │
            └──────────┘ └──────────┘     └──────────────┘
-                             │
-                             ▼
-                        ┌──────────────┐
-                        │ Web Search   │
-                        │  (Tavily)    │
-                        │  (if needed) │
-                        └──────────────┘
-```
+ ```
 
 ### Request Flow
 1. **User Query** → Frontend sends to Backend
