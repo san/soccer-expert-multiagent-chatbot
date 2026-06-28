@@ -1,24 +1,10 @@
-#streamlit_ui.py
-
-"""
-Streamlit UI for Soccer Expert Chatbot Agent
-
-Simple and intuitive interface for chatting with the chatbot.
-Can connect to local FastAPI or Cloud Run deployment.
-"""
+import os
 
 import streamlit as st
 import requests
 from datetime import datetime
 import time
-import os
 
-
-def response_generator(response_text: str):
-    
-    for word in response_text.split():
-        yield word + " "
-        time.sleep(0.05)
 # ============================================================================
 # Page Configuration
 # ============================================================================
@@ -30,118 +16,129 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ============================================================================
-# Styling
-# ============================================================================
 
-st.markdown("""
-<style>
-    .main {
-        padding: 0rem 1rem;
-    }
-    .chat-message {
-        padding: 1rem;
-        border-radius: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .user-message {
-        background-color: #e3f2fd !important;
-        border-left: 4px solid #2196F3;
-        color: #000000 !important;
-    }
-    .assistant-message {
-        background-color: #ffffff !important;
-        border-left: 4px solid #4CAF50;
-        color: #000000 !important;
-    }
-    .error-message {
-        background-color: #ffebee;
-        border-left: 4px solid #f44336;
-        color: #000000 !important;
-    }
-    .info-badge {
-        display: inline-block;
-        padding: 0.25rem 0.75rem;
-        border-radius: 1rem;
-        font-size: 0.85rem;
-        font-weight: 500;
-        margin-right: 0.5rem;
-    }
-    .rag-badge {
-        background-color: #c8e6c9;
-        color: #1b5e20;
-    }
-    .web-badge {
-        background-color: #bbdefb;
-        color: #0d47a1;
-    }
-</style>
-""", unsafe_allow_html=True)
+# Streamed response emulator
+def generate_response(message_text):
+ 
+    if not st.session_state.connected:
+        st.error("❌ API not connected. Please configure connection in sidebar.")
+        return ""
+    
+    try:
+        response = requests.post(
+            f"{st.session_state.api_url}/query",
+            json={
+                "user_id": "streamlit_user",
+                "session_id": st.session_state.session_id,
+                "message": message_text
+            },
+            timeout=30
+        )
 
-# ============================================================================
-# Session State Initialization
-# ============================================================================
+        if response.status_code == 200:
+            data = response.json()
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": data["response"],
+                "tool_used": data.get("tool_used")
+            })
+            return data["response"]
+        else:
+            error_data = response.json() if response.text else {}
+            error_msg = error_data.get("detail", f"Status {response.status_code}")
+            st.error(f"❌ Error: {error_msg}")
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": "Oops! Something went wrong. Please try again."
+            })
+            return "Oops! Something went wrong. Please try again."
+        
+    except requests.exceptions.Timeout:
+        st.error("❌ Request timeout. Please try again.")
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": "Oops! Something went wrong. Please try again."
+        })
+        return "Oops! Something went wrong. Please try again."
+    except requests.exceptions.ConnectionError:
+        st.error("❌ Connection error. Please check the API URL.")
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": "Oops! Something went wrong. Please try again."
+        })
+        return "Oops! Something went wrong. Please try again."
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+    except Exception as e:
+        st.error(f"❌ Error: {str(e)}")
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": "Oops! Something went wrong. Please try again."
+        })
+        return "Oops! Something went wrong. Please try again."
+
+
+def handle_user_input(message_text, chat_container=None):
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": message_text})
+    # Display user message in chat message container
+    with chat_container.chat_message("user"):
+        st.markdown(message_text)
+
+    # Display assistant response in chat message container
+    with chat_container.spinner("Generating response..."):
+        with chat_container.chat_message("assistant"):
+            full_response = ""
+            message_placeholder = st.empty()
+            assistant_response = generate_response(message_text)
+            for chunk in assistant_response.split(" "):
+                full_response += chunk + " "
+                time.sleep(0.05)
+                # Add a blinking cursor to simulate typing
+                message_placeholder.markdown(full_response + "▌")
+            message_placeholder.markdown(full_response)
+
 
 if "session_id" not in st.session_state:
     st.session_state.session_id = f"streamlit_session_{datetime.now().timestamp()}"
 
+# Set the API URL from secrets
 if "api_url" not in st.session_state:
     st.session_state.api_url = os.environ.get("API_URL", "http://localhost:8000")  # Default to localhost if not set
+
+# Initialize chat history
+if "messages" not in st.session_state:
+    st.session_state.messages = []
 
 if "connected" not in st.session_state:
     st.session_state.connected = False
 
+if "connection_tested" not in st.session_state:
+    st.session_state.connection_tested = False
+
+
 # ============================================================================
-# Helper Functions
+# Test Connection Function
 # ============================================================================
 
-def submit_message(message_text: str) -> None:
-    """Submit a message to the chatbot API and update chat history."""
-    if not st.session_state.connected:
-        st.error("❌ API not connected. Please configure connection in sidebar.")
-        return
-    
-    # Add user message to chat
-    st.session_state.messages.append({
-        "role": "user",
-        "content": message_text
-    })
-
-    # Get response from API
-    try:
-        with st.spinner("🔄 Agents thinking..."):
-            response = requests.post(
-                f"{st.session_state.api_url}/query",
-                json={
-                    "user_id": "streamlit_user",
-                    "session_id": st.session_state.session_id,
-                    "message": message_text
-                },
-                timeout=30
-            )
-
+def test_connection():
+    """Test API connection and update connection status"""
+    with st.spinner("Connecting..."):
+        try:
+            response = requests.get(f"{st.session_state.api_url}/health", timeout=60)
             if response.status_code == 200:
+                st.session_state.connected = True
                 data = response.json()
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": data["response"],
-                    "tool_used": data.get("tool_used")
-                })
-                st.rerun()
+                st.success("✓ Connected!")
+                st.write(f"Status: {data['status']}")
+                st.write(f"Active sessions: {data['active_sessions']}")
             else:
-                error_data = response.json() if response.text else {}
-                error_msg = error_data.get("detail", f"Status {response.status_code}")
-                st.error(f"❌ Error: {error_msg}")
+                st.session_state.connected = False
+                st.error(f"✗ Error: Status {response.status_code}")
+        except Exception as e:
+            st.session_state.connected = False
+            st.error(f"✗ Connection failed: {str(e)}")
+    st.session_state.connection_tested = True
 
-    except requests.exceptions.Timeout:
-        st.error("❌ Request timeout. Please try again.")
-    except requests.exceptions.ConnectionError:
-        st.error("❌ Connection error. Please check the API URL.")
-    except Exception as e:
-        st.error(f"❌ Error: {str(e)}")
 
 # ============================================================================
 # Sidebar Configuration
@@ -161,22 +158,13 @@ with st.sidebar:
     if custom_url:
         st.session_state.api_url = custom_url.rstrip("/")
 
-    # Test Connection
+    # Test Connection - Auto-run on first load
+    if not st.session_state.connection_tested:
+        test_connection()
+    
+    # Manual test button
     if st.button("🔌 Test Connection", use_container_width=True):
-        try:
-            response = requests.get(f"{st.session_state.api_url}/health", timeout=5)
-            if response.status_code == 200:
-                st.session_state.connected = True
-                data = response.json()
-                st.success("✓ Connected!")
-                st.write(f"Status: {data['status']}")
-                st.write(f"Active sessions: {data['active_sessions']}")
-            else:
-                st.session_state.connected = False
-                st.error(f"✗ Error: Status {response.status_code}")
-        except Exception as e:
-            st.session_state.connected = False
-            st.error(f"✗ Connection failed: {str(e)}")
+        test_connection()
 
     st.divider()
 
@@ -194,21 +182,47 @@ with st.sidebar:
         st.success("Chat history cleared")
         st.rerun()
 
+
 # ============================================================================
 # Main Content
 # ============================================================================
 
 # Header
-col1, col2 = st.columns([4, 1])
-with col1:
-    st.title("⚽ Soccer Expert Chatbot")
-    st.caption("Google ADK-powered soccer expert chatbot with RAG and web search")
 
-with col2:
-    if st.session_state.connected:
-        st.success("🟢 Connected")
-    else:
-        st.warning("🔴 Not Connected")
+with st.container():
+    header = st.empty()
+    col1, col2 = header.columns([4, 1])
+    with col1:
+        st.title("⚽ Soccer Expert Chatbot")
+        st.caption("Google ADK-powered soccer expert chatbot with RAG and web search")
+
+    with col2:
+        if st.session_state.connected:
+            st.success("🟢 Connected")
+        else:
+            st.warning("🔴 Not Connected")
+    ### Custom CSS for the sticky header
+    st.markdown(
+        """
+        <style>
+            div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
+                position: sticky;
+                top: 2.875rem;
+                background-color: white;
+                z-index: 999;
+            }
+            .fixed-header {
+                border-bottom: 1px solid black;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )   
+
+
+# ============================================================================
+# Main Content
+# ============================================================================
 
 # ============================================================================
 # Info Section
@@ -235,44 +249,23 @@ with expander:
     3. Start asking questions!
     """)
 
-st.divider()
 
-# Chat Messages Display
 chat_container = st.container()
 
-with chat_container:
-    # Display chat messages from history on app rerun
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+# Display chat messages from history on app rerun
+for message in st.session_state.messages:
+    with chat_container.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-# Input Area
-st.divider()
-
-# Create form for message input - allows Enter key to submit
-with st.form(key="message_form"):
-    col1, col2 = st.columns([4, 1])
-    
-    with col1:
-        user_input = st.text_input(
-            "Message:",
-            placeholder="Ask me anything about soccer...",
-            label_visibility="collapsed",
-            key="user_input_field"
-        )
-    
-    with col2:
-        send_button = st.form_submit_button("📤 Send", use_container_width=True)
-
-# Handle Message Sending
-if send_button and user_input:
-    submit_message(user_input)
-
+# Accept user input
+prompt = st.chat_input("Ask me anything about soccer...")
+if prompt:
+    handle_user_input(prompt, chat_container)
 
 # ============================================================================
 # Sample Questions Section
 # ============================================================================
-sample_questions_container = st.container()
+sample_questions_container = st.bottom.container()
 
 with sample_questions_container:
     col1, col2, col3 = st.columns(3)
@@ -285,23 +278,23 @@ with sample_questions_container:
 
     with col1:
         if st.button(sample_questions[0], use_container_width=True, key="q1"):
-            submit_message(sample_questions[0])
+            handle_user_input(sample_questions[0], chat_container)
 
     with col2:
         if st.button(sample_questions[1], use_container_width=True, key="q2"):
-            submit_message(sample_questions[1])
+            handle_user_input(sample_questions[1], chat_container)
 
     with col3:
         if st.button(sample_questions[2], use_container_width=True, key="q3"):
-            submit_message(sample_questions[2])
+            handle_user_input(sample_questions[2], chat_container)
 
 
 # ============================================================================
 # Footer
 # ============================================================================
 
-st.divider()
-col1, col2, col3 = st.columns(3)
+st.bottom.divider()
+col1, col2, col3 = st.bottom.columns(3)
 
 with col1:
     st.caption("📖 [Documentation](https://github.com/san/soccer-expert-multiagent-chatbot)")
@@ -311,3 +304,4 @@ with col2:
 
 with col3:
     st.caption("💬 Chat Sessions: " + str(len(st.session_state.messages) // 2))
+
