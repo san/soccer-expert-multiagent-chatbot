@@ -12,7 +12,7 @@ import time
 st.set_page_config(
     page_title="Soccer Expert Chatbot",
     page_icon="⚽",
-    layout="wide",
+    # layout="wide",
     initial_sidebar_state="expanded"
 )
 
@@ -115,29 +115,36 @@ if "connected" not in st.session_state:
 if "connection_tested" not in st.session_state:
     st.session_state.connection_tested = False
 
+if "testing_connection" not in st.session_state:
+    st.session_state.testing_connection = False
+
 
 # ============================================================================
 # Test Connection Function
 # ============================================================================
 
-def test_connection():
-    """Test API connection and update connection status"""
-    with st.spinner("Connecting..."):
-        try:
-            response = requests.get(f"{st.session_state.api_url}/health", timeout=60)
-            if response.status_code == 200:
-                st.session_state.connected = True
-                data = response.json()
-                st.success("✓ Connected!")
-                st.write(f"Status: {data['status']}")
-                st.write(f"Active sessions: {data['active_sessions']}")
-            else:
+def connect_with_api():
+    """Establish connection with API and update connection status"""
+    st.session_state.testing_connection = True
+    try:
+        with st.spinner("Connecting..."):
+            time.sleep(10)
+            try:
+                response = requests.get(f"{st.session_state.api_url}/health", timeout=60)
+                if response.status_code == 200:
+                    st.session_state.connected = True
+                    data = response.json()
+                    st.write(f"Status: {data['status']}")
+                    st.write(f"Active sessions: {data['active_sessions']}")
+                else:
+                    st.session_state.connected = False
+                    st.error(f"✗ Error: Status {response.status_code}")
+            except Exception as e:
                 st.session_state.connected = False
-                st.error(f"✗ Error: Status {response.status_code}")
-        except Exception as e:
-            st.session_state.connected = False
-            st.error(f"✗ Connection failed: {str(e)}")
-    st.session_state.connection_tested = True
+                st.error(f"✗ Connection failed: {str(e)}")
+    finally:
+        st.session_state.connection_tested = True
+        st.session_state.testing_connection = False
 
 
 # ============================================================================
@@ -145,9 +152,12 @@ def test_connection():
 # ============================================================================
 
 with st.sidebar:
-    st.title("⚙️ Configuration")
-
+    st.title("⚽ Soccer Expert Chatbot")
+    st.caption("Google ADK-powered soccer expert chatbot with RAG and web search")
+    
     # API Configuration
+    st.header("⚙️ Configuration")
+
     st.subheader("🌐 API Connection")
 
     custom_url = st.text_input(
@@ -155,16 +165,21 @@ with st.sidebar:
         value=st.session_state.api_url,
         help="Enter API URL"
     )
-    if custom_url:
+    if custom_url and custom_url.rstrip("/") != st.session_state.api_url:
         st.session_state.api_url = custom_url.rstrip("/")
+        st.session_state.connected = False
 
-    # Test Connection - Auto-run on first load
     if not st.session_state.connection_tested:
-        test_connection()
-    
+        connect_with_api()
+
     # Manual test button
-    if st.button("🔌 Test Connection", use_container_width=True):
-        test_connection()
+    if st.button("🔌 Connect", use_container_width=True):
+        connect_with_api()
+    
+    if st.session_state.connected:
+        st.success("🟢 Connected")
+    else:
+        st.warning("🔴 Not Connected")
 
     st.divider()
 
@@ -182,47 +197,10 @@ with st.sidebar:
         st.success("Chat history cleared")
         st.rerun()
 
-
 # ============================================================================
 # Main Content
 # ============================================================================
 
-# Header
-
-with st.container():
-    header = st.empty()
-    col1, col2 = header.columns([4, 1])
-    with col1:
-        st.title("⚽ Soccer Expert Chatbot")
-        st.caption("Google ADK-powered soccer expert chatbot with RAG and web search")
-
-    with col2:
-        if st.session_state.connected:
-            st.success("🟢 Connected")
-        else:
-            st.warning("🔴 Not Connected")
-    ### Custom CSS for the sticky header
-    st.markdown(
-        """
-        <style>
-            div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
-                position: sticky;
-                top: 2.875rem;
-                background-color: white;
-                z-index: 999;
-            }
-            .fixed-header {
-                border-bottom: 1px solid black;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )   
-
-
-# ============================================================================
-# Main Content
-# ============================================================================
 
 # ============================================================================
 # Info Section
