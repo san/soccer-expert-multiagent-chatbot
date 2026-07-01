@@ -85,17 +85,17 @@ def handle_user_input(message_text, chat_container=None):
         st.markdown(message_text)
 
     # Display assistant response in chat message container
-    with chat_container.spinner("Generating response..."):
-        with chat_container.chat_message("assistant"):
+    with chat_container.chat_message("assistant"):
+        with st.spinner("Thinking..."):
             full_response = ""
-            message_placeholder = st.empty()
             assistant_response = generate_response(message_text)
-            for chunk in assistant_response.split(" "):
-                full_response += chunk + " "
-                time.sleep(0.05)
-                # Add a blinking cursor to simulate typing
-                message_placeholder.markdown(full_response + "▌")
-            message_placeholder.markdown(full_response)
+            message_placeholder = st.empty()
+        for chunk in assistant_response.split(" "):
+            full_response += chunk + " "
+            time.sleep(0.05)
+            # Add a blinking cursor to simulate typing
+            message_placeholder.markdown(full_response + "▌")
+        message_placeholder.markdown(full_response)
 
 
 if "session_id" not in st.session_state:
@@ -128,7 +128,6 @@ def connect_with_api():
     st.session_state.testing_connection = True
     try:
         with st.spinner("Connecting..."):
-            time.sleep(10)
             try:
                 response = requests.get(f"{st.session_state.api_url}/health", timeout=60)
                 if response.status_code == 200:

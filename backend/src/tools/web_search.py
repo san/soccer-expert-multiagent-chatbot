@@ -34,7 +34,7 @@ def web_search(
         response = client.search(
             query=query,
             search_depth="advanced",
-            max_results=3,
+            max_results=5,
             include_answer=True,
         )
 
@@ -48,6 +48,12 @@ def web_search(
             }
             for r in response.get("results", [])
         ]
+
+        print(f"\n{'='*60}")
+        print(f"Web search query: {query}")
+        print(f"Found {len(results)} results:")
+        print(f"{results}\n")
+        print(f"{'='*60}\n")
 
         return {
             "success": True,

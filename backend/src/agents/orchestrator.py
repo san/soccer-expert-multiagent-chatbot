@@ -10,6 +10,7 @@ from google.adk.agents import Agent
 from src.agents.soccer_expert import soccer_expert_agent_tool
 from src.agents.world_cup_analyst import world_cup_analyst_agent_tool
 from src.observability.logger import log_agent_call, log_pipeline_start, Timer
+from src.tools.web_search import web_search_tool
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types
@@ -24,12 +25,14 @@ You are the Orchestrator Agent for a Soccer Expert System. Your responsibilities
 1. Analyze incoming queries to determine their type and intent
 2. Route queries to the most appropriate specialized agent:
    - SOCCER_EXPERT for general soccer knowledge
-   - WORLD_CUP_ANALYST for FIFA World Cup questions
+   - WORLD_CUP_ANALYST for FIFA World Cup questions (2022 World cup or earlier)
+   - WEB_SEARCH for real-time information retrieval (about current 2026 World Cup)
 3. Manage conversation context for multi-turn interactions
 
 Query routing rules:
-- If query mentions "World Cup" or "FIFA" or current information (standings, recent results): → World Cup Analyst
+- If query mentions "World Cup" or "FIFA" (standings, results): → World Cup Analyst
 - If query is about soccer rules, players, teams: → Soccer Expert
+- If query requires real-time information about 2026 World Cup: → Web Search
 
 Be concise and helpful. It is important to always cite sources in bold in a separate line when providing information.
 """
@@ -49,7 +52,7 @@ def create_orchestrator() -> Agent:
         name="orchestrator",
         model="gemini-2.5-flash",
         instruction=ORCHESTRATOR_INSTRUCTION,
-        tools=[soccer_expert_agent_tool, world_cup_analyst_agent_tool],
+        tools=[soccer_expert_agent_tool, world_cup_analyst_agent_tool, web_search_tool],
     )
     return orchestrator
 
@@ -123,7 +126,7 @@ async def run_chatbot(agent, message: str, user_id: str = "customer1", session_i
     log_agent_call(
         agent_name="orchestrator",
         query=message,
-        tools_called=["soccer_expert_agent_tool", "world_cup_analyst_agent_tool"],
+        tools_called=["soccer_expert_agent_tool", "world_cup_analyst_agent_tool", "web_search_tool"],
         latency_ms=t.elapsed_ms,
         output_summary=str(response_text)[:200],
     )
