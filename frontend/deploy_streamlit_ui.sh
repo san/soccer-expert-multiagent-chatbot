@@ -141,11 +141,10 @@ echo ""
 # ============================================================================
 
 echo -e "${YELLOW}Waiting for build to complete...${NC}"
-echo "  You can monitor progress with:"
-echo "  gcloud builds log $BUILD_ID --stream"
+echo "  Streaming build logs:"
 echo ""
 
-gcloud builds wait "$BUILD_ID"
+gcloud builds log "$BUILD_ID" --stream
 
 BUILD_STATUS=$(gcloud builds describe "$BUILD_ID" --format='value(status)')
 
